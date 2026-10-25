@@ -1,0 +1,169 @@
+[
+  {
+    "run_at": "2026-10-24T12:28:48",
+    "rows": null,
+    "phases": [
+      {
+        "phase": "Phase 1 - Ingestion and validation",
+        "status": "OK",
+        "seconds": 0.06,
+        "reason": "",
+        "produces": [
+          "validation_report.json"
+        ]
+      },
+      {
+        "phase": "Phase 2 - Cleaning",
+        "status": "OK",
+        "seconds": 0.3,
+        "reason": "",
+        "produces": [
+          "clean_data.csv",
+          "cleaning_log.json"
+        ]
+      },
+      {
+        "phase": "Phase 3 - Feature engineering",
+        "status": "OK",
+        "seconds": 0.14,
+        "reason": "",
+        "produces": [
+          "feature_store.csv"
+        ]
+      },
+      {
+        "phase": "Phase 4 - EDA charts",
+        "status": "OK",
+        "seconds": 3.49,
+        "reason": "",
+        "produces": [
+          "reports"
+        ]
+      },
+      {
+        "phase": "Phase 5 - Loss-risk classification",
+        "status": "OK",
+        "seconds": 15.25,
+        "reason": "",
+        "produces": [
+          "model_metrics.json",
+          "ml_task1_output.csv"
+        ]
+      },
+      {
+        "phase": "Phase 6 - Segments and anomalies",
+        "status": "OK",
+        "seconds": 3.14,
+        "reason": "",
+        "produces": [
+          "ml_task2_output.csv",
+          "segment_metrics.json"
+        ]
+      },
+      {
+        "phase": "Phase 7 - Forecast",
+        "status": "OK",
+        "seconds": 1.98,
+        "reason": "",
+        "produces": [
+          "forecast_output.csv",
+          "forecast_metrics.json"
+        ]
+      },
+      {
+        "phase": "Phase 8 - Business logic",
+        "status": "OK",
+        "seconds": 0.94,
+        "reason": "",
+        "produces": [
+          "business_logic_output.csv",
+          "depot_zone_summary.csv",
+          "driver_review.csv",
+          "recommendations.json"
+        ]
+      },
+      {
+        "phase": "Phase 8B - Simulation engine",
+        "status": "OK",
+        "seconds": 0.12,
+        "reason": "",
+        "produces": [
+          "failed_delivery_reduction.json",
+          "overtime_reduction.json",
+          "rate_change.json",
+          "load_consolidation.json"
+        ]
+      },
+      {
+        "phase": "Phase 8C - Goals and alerts",
+        "status": "OK",
+        "seconds": 0.18,
+        "reason": "",
+        "produces": [
+          "goals.json",
+          "terminology.json",
+          "goal_progress.json",
+          "alerts.json"
+        ]
+      },
+      {
+        "phase": "Phase 9 - Insights engine",
+        "status": "OK",
+        "seconds": 0.14,
+        "reason": "",
+        "produces": [
+          "insights.json"
+        ]
+      },
+      {
+        "phase": "Phase 10 - Excel report and dashboard",
+        "status": "OK",
+        "seconds": 1.43,
+        "reason": "",
+        "produces": [
+          "s1p28_report.xlsx",
+          "interactive_dashboard.html"
+        ]
+      },
+      {
+        "phase": "Phase 11 - Export for frontend",
+        "status": "OK",
+        "seconds": 0.6,
+        "reason": "",
+        "produces": [
+          "frontend_contract.json"
+        ]
+      },
+      {
+        "phase": "Phase 12 - Portfolio post",
+        "status": "OK",
+        "seconds": 0.27,
+        "reason": "",
+        "produces": [
+          "linkedin_post.txt",
+          "post_evidence.txt",
+          "post_facts.json"
+        ]
+      },
+      {
+        "phase": "Phase 13 - Presentation script",
+        "status": "OK",
+        "seconds": 0.07,
+        "reason": "",
+        "produces": [
+          "presentation_script.txt"
+        ]
+      },
+      {
+        "phase": "Phase 13B - README",
+        "status": "OK",
+        "seconds": 0.1,
+        "reason": "",
+        "produces": [
+          "README.md"
+        ]
+      }
+    ],
+    "tracebacks": []
+  }
+]

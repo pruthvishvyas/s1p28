@@ -1,0 +1,59 @@
+{
+  "window_days": 7,
+  "window_end": "2026-09-30",
+  "current": {
+    "routes": 22,
+    "revenue": 13321.13,
+    "profit": 628.41,
+    "margin_pct": 4.7174,
+    "on_time_pct": 86.8993,
+    "first_attempt_pct": 95.0622,
+    "overtime_hours_per_route": 1.9273,
+    "p1_routes": 9
+  },
+  "previous": {
+    "routes": 25,
+    "revenue": 16208.04,
+    "profit": 1640.67,
+    "margin_pct": 10.1226,
+    "on_time_pct": 85.2891,
+    "first_attempt_pct": 95.2475,
+    "overtime_hours_per_route": 2.028,
+    "p1_routes": 9
+  },
+  "goals": [
+    {
+      "goal": "margin_target_pct",
+      "label": "Network margin %",
+      "actual": 4.72,
+      "target": 0.0,
+      "on_track": true,
+      "gap": 4.72
+    },
+    {
+      "goal": "on_time_target_pct",
+      "label": "On-time delivery %",
+      "actual": 86.9,
+      "target": 95,
+      "on_track": false,
+      "gap": -8.1
+    },
+    {
+      "goal": "first_attempt_target_pct",
+      "label": "First-attempt success %",
+      "actual": 95.06,
+      "target": 95,
+      "on_track": true,
+      "gap": 0.06
+    },
+    {
+      "goal": "max_overtime_hours",
+      "label": "Overtime hours per route",
+      "actual": 1.93,
+      "target": 0.5,
+      "on_track": false,
+      "gap": 1.43
+    }
+  ],
+  "margin_target_is_default": true
+}

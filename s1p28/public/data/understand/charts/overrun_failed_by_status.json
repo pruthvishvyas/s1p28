@@ -1,0 +1,27 @@
+{
+  "id": "overrun_failed_by_status",
+  "title": "Hours overrun and failed-stop rate by outcome",
+  "type": "bar",
+  "question": "Do overruns and failed stops separate losing routes from winners?",
+  "outcome": "DECIDE",
+  "x_label": "Metric | outcome",
+  "y_label": "Mean value",
+  "data": [
+    {
+      "label": "hours_overrun_pct | Loss-Making",
+      "value": 21.499
+    },
+    {
+      "label": "failed_rate | Loss-Making",
+      "value": 0.0586
+    },
+    {
+      "label": "hours_overrun_pct | Profitable",
+      "value": 5.6995
+    },
+    {
+      "label": "failed_rate | Profitable",
+      "value": 0.0418
+    }
+  ]
+}

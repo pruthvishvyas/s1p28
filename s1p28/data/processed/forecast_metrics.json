@@ -1,0 +1,35 @@
+{
+  "n_days": 294,
+  "horizon_days": 14,
+  "targets": {
+    "routes": {
+      "model": "dow_average",
+      "mae": 1.592,
+      "mae_baseline_dow": 1.592,
+      "mean_level": 3.4014,
+      "validated_on_holdout": true
+    },
+    "parcels": {
+      "model": "dow_average",
+      "mae": 205.6595,
+      "mae_baseline_dow": 205.6595,
+      "mean_level": 425.7449,
+      "validated_on_holdout": true
+    },
+    "revenue": {
+      "model": "dow_average",
+      "mae": 990.2113,
+      "mae_baseline_dow": 990.2113,
+      "mean_level": 2053.5348,
+      "validated_on_holdout": true
+    },
+    "profit": {
+      "model": "dow_average",
+      "mae": 221.1696,
+      "mae_baseline_dow": 221.1696,
+      "mean_level": 156.6465,
+      "validated_on_holdout": true
+    }
+  },
+  "status": "ok"
+}

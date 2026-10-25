@@ -1,0 +1,59 @@
+{
+  "id": "margin_by_depot_zone",
+  "title": "Margin by depot and zone",
+  "type": "heatmap",
+  "question": "Which depot and zone combinations lose money?",
+  "outcome": "UNDERSTAND",
+  "x_label": "Depot | Zone",
+  "y_label": "Mean margin %",
+  "data": [
+    {
+      "label": "Central Hub | Rural",
+      "value": 5.9717
+    },
+    {
+      "label": "Central Hub | Suburban",
+      "value": 2.6777
+    },
+    {
+      "label": "Central Hub | Urban Dense",
+      "value": -0.8581
+    },
+    {
+      "label": "Coastal Hub | Rural",
+      "value": 17.1113
+    },
+    {
+      "label": "Coastal Hub | Suburban",
+      "value": 15.9001
+    },
+    {
+      "label": "Coastal Hub | Urban Dense",
+      "value": 11.0713
+    },
+    {
+      "label": "North Hub (cold climate) | Rural",
+      "value": 3.5142
+    },
+    {
+      "label": "North Hub (cold climate) | Suburban",
+      "value": 3.8617
+    },
+    {
+      "label": "North Hub (cold climate) | Urban Dense",
+      "value": -7.4346
+    },
+    {
+      "label": "South Hub (hot climate) | Rural",
+      "value": 9.4425
+    },
+    {
+      "label": "South Hub (hot climate) | Suburban",
+      "value": 10.2707
+    },
+    {
+      "label": "South Hub (hot climate) | Urban Dense",
+      "value": 6.5466
+    }
+  ]
+}

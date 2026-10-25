@@ -1,0 +1,91 @@
+{
+  "id": "cost_per_parcel_by_status",
+  "title": "Cost per parcel by cost line and outcome",
+  "type": "bar",
+  "question": "Where does a loss-making route spend more?",
+  "outcome": "DECIDE",
+  "x_label": "Cost line | outcome",
+  "y_label": "Cost per parcel",
+  "data": [
+    {
+      "label": "Driver labour | Loss-Making",
+      "value": 2.8652
+    },
+    {
+      "label": "Driver labour | Profitable",
+      "value": 2.3882
+    },
+    {
+      "label": "Fuel / energy | Loss-Making",
+      "value": 0.169
+    },
+    {
+      "label": "Fuel / energy | Profitable",
+      "value": 0.223
+    },
+    {
+      "label": "Vehicle lease | Loss-Making",
+      "value": 0.7741
+    },
+    {
+      "label": "Vehicle lease | Profitable",
+      "value": 0.852
+    },
+    {
+      "label": "Maintenance | Loss-Making",
+      "value": 0.0545
+    },
+    {
+      "label": "Maintenance | Profitable",
+      "value": 0.0726
+    },
+    {
+      "label": "Parking, tolls and fines | Loss-Making",
+      "value": 0.0761
+    },
+    {
+      "label": "Parking, tolls and fines | Profitable",
+      "value": 0.0574
+    },
+    {
+      "label": "Hub sorting | Loss-Making",
+      "value": 0.6011
+    },
+    {
+      "label": "Hub sorting | Profitable",
+      "value": 0.5779
+    },
+    {
+      "label": "Failed-delivery redelivery | Loss-Making",
+      "value": 0.167
+    },
+    {
+      "label": "Failed-delivery redelivery | Profitable",
+      "value": 0.0972
+    },
+    {
+      "label": "Damage claims | Loss-Making",
+      "value": 0.2161
+    },
+    {
+      "label": "Damage claims | Profitable",
+      "value": 0.0658
+    },
+    {
+      "label": "SLA penalties | Loss-Making",
+      "value": 0.1246
+    },
+    {
+      "label": "SLA penalties | Profitable",
+      "value": 0.3164
+    },
+    {
+      "label": "Overhead | Loss-Making",
+      "value": 0.3897
+    },
+    {
+      "label": "Overhead | Profitable",
+      "value": 0.4396
+    }
+  ]
+}

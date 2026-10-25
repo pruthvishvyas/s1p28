@@ -1,0 +1,51 @@
+{
+  "id": "top_loss_drivers",
+  "title": "Top pre-dispatch drivers of loss",
+  "type": "bar",
+  "question": "What predicts a loss-making route?",
+  "outcome": "DECIDE",
+  "x_label": "Feature",
+  "y_label": "Importance",
+  "data": [
+    {
+      "label": "Traffic_Index",
+      "value": 1.9909
+    },
+    {
+      "label": "Vehicle_Type_Cargo Bike",
+      "value": 1.6444
+    },
+    {
+      "label": "Revenue_per_Parcel",
+      "value": 1.4785
+    },
+    {
+      "label": "Depot_Coastal Hub",
+      "value": 1.3172
+    },
+    {
+      "label": "Depot_North Hub (cold climate)",
+      "value": 1.1556
+    },
+    {
+      "label": "Vehicle_Type_Electric Van",
+      "value": 0.9403
+    },
+    {
+      "label": "planned_revenue_per_hour",
+      "value": 0.8853
+    },
+    {
+      "label": "Depot_Central Hub",
+      "value": 0.8447
+    },
+    {
+      "label": "planned_revenue",
+      "value": 0.7887
+    },
+    {
+      "label": "Depot_South Hub (hot climate)",
+      "value": 0.7046
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "rows": 1000,
+  "k": 3,
+  "silhouette": 0.2989,
+  "anomalies": 50,
+  "anomaly_loss_rate": 0.48
+}

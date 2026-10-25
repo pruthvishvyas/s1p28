@@ -1,0 +1,12 @@
+{
+  "dropped_bad_dates": 0,
+  "duplicates_removed": 0,
+  "dropped_missing_financials": 0,
+  "median_filled": {},
+  "iqr_capped": {
+    "Stops_per_Hour": 0,
+    "Traffic_Index": 0,
+    "Actual_Hours": 0
+  },
+  "profit_recomputed": 0
+}

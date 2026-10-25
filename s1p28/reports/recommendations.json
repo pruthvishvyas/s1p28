@@ -1,0 +1,42 @@
+[
+  {
+    "scope": "Depot x Zone",
+    "target": "North Hub (cold climate) | Urban Dense",
+    "finding": "106 routes, margin -5.4%, 62% of routes lose money; main excess cost: Driver labour",
+    "action": "Re-plan or re-price this lane this week; start with Driver labour",
+    "loss_at_stake": 3707.29,
+    "rank": 1
+  },
+  {
+    "scope": "Vehicle type",
+    "target": "Electric Van",
+    "finding": "Electric Van routes earn 6.0% margin vs 7.6% network average (256 routes)",
+    "action": "Shift this vehicle type to lanes where it earns above average, or renegotiate its lease",
+    "loss_at_stake": 0.0,
+    "rank": 2
+  },
+  {
+    "scope": "Driver",
+    "target": "DRV001",
+    "finding": "32 routes, margin -9.2%, overtime on 78% of routes",
+    "action": "Schedule route-planning coaching and review stop sequencing",
+    "loss_at_stake": 1680.53,
+    "rank": 3
+  },
+  {
+    "scope": "Driver",
+    "target": "DRV005",
+    "finding": "20 routes, margin -2.5%, overtime on 70% of routes",
+    "action": "Schedule route-planning coaching and review stop sequencing",
+    "loss_at_stake": 303.21,
+    "rank": 4
+  },
+  {
+    "scope": "Driver",
+    "target": "DRV003",
+    "finding": "32 routes, margin -1.3%, overtime on 62% of routes",
+    "action": "Schedule route-planning coaching and review stop sequencing",
+    "loss_at_stake": 246.39,
+    "rank": 5
+  }
+]

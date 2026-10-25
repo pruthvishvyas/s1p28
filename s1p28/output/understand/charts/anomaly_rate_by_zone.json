@@ -1,0 +1,23 @@
+{
+  "id": "anomaly_rate_by_zone",
+  "title": "Anomaly rate by zone type",
+  "type": "bar",
+  "question": "Where do abnormal routes cluster?",
+  "outcome": "UNDERSTAND",
+  "x_label": "Zone",
+  "y_label": "Anomalous routes %",
+  "data": [
+    {
+      "label": "Rural",
+      "value": 12.3762
+    },
+    {
+      "label": "Suburban",
+      "value": 1.6807
+    },
+    {
+      "label": "Urban Dense",
+      "value": 4.3084
+    }
+  ]
+}

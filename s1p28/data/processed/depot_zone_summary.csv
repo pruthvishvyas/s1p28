@@ -1,0 +1,13 @@
+Depot,Zone_Type,routes,net_profit,revenue,loss_routes,margin_pct,loss_share_pct,top_loss_driver
+North Hub (cold climate),Urban Dense,106,-3707.289999999999,68517.86,66,-5.41,62.3,Driver labour
+North Hub (cold climate),Rural,53,1204.05,25500.35,19,4.72,35.8,Driver labour
+Central Hub,Rural,46,1694.5400000000004,22606.46,13,7.5,28.3,Driver labour
+Central Hub,Urban Dense,121,2354.0699999999997,85366.1,68,2.76,56.2,Driver labour
+Central Hub,Suburban,95,2719.2400000000007,55242.94,37,4.92,38.9,Driver labour
+South Hub (hot climate),Rural,56,2765.05,25991.31,11,10.64,19.6,Driver labour
+North Hub (cold climate),Suburban,92,3520.8,55210.43,38,6.38,41.3,Driver labour
+Coastal Hub,Rural,47,4539.4,24021.44,2,18.9,4.3,Driver labour
+South Hub (hot climate),Suburban,90,6964.79,52632.29,19,13.23,21.1,Driver labour
+South Hub (hot climate),Urban Dense,113,7544.51,78223.41,40,9.64,35.4,Driver labour
+Coastal Hub,Suburban,80,7737.67,44345.56,9,17.45,11.2,Damage claims
+Coastal Hub,Urban Dense,101,8717.25,66081.08,25,13.19,24.8,Damage claims

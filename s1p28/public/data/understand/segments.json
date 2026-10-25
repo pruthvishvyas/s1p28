@@ -1,0 +1,102 @@
+{
+  "segments": [
+    {
+      "route_segment": "Loss-Making Profile",
+      "routes": 395,
+      "avg_margin_pct": -2.4508,
+      "loss_share": 0.5646,
+      "avg_stops_per_hour": 10.9476,
+      "avg_load_pct": 86.5542,
+      "avg_failed_rate": 0.0639,
+      "avg_cost_per_parcel": 4.5622,
+      "net_profit": 997.73,
+      "share_pct": 39.5
+    },
+    {
+      "route_segment": "Mid-Tier Profile 1",
+      "routes": 205,
+      "avg_margin_pct": 8.9671,
+      "loss_share": 0.2195,
+      "avg_stops_per_hour": 7.0224,
+      "avg_load_pct": 28.5961,
+      "avg_failed_rate": 0.0308,
+      "avg_cost_per_parcel": 7.8514,
+      "net_profit": 10555.98,
+      "share_pct": 20.5
+    },
+    {
+      "route_segment": "Profit Leaders",
+      "routes": 400,
+      "avg_margin_pct": 11.7397,
+      "loss_share": 0.1975,
+      "avg_stops_per_hour": 11.3772,
+      "avg_load_pct": 63.6773,
+      "avg_failed_rate": 0.0402,
+      "avg_cost_per_parcel": 4.4973,
+      "net_profit": 34500.37,
+      "share_pct": 40.0
+    }
+  ],
+  "by_depot": [
+    {
+      "route_segment": "Loss-Making Profile",
+      "Depot": "Central Hub",
+      "routes": 123
+    },
+    {
+      "route_segment": "Loss-Making Profile",
+      "Depot": "Coastal Hub",
+      "routes": 92
+    },
+    {
+      "route_segment": "Loss-Making Profile",
+      "Depot": "North Hub (cold climate)",
+      "routes": 87
+    },
+    {
+      "route_segment": "Loss-Making Profile",
+      "Depot": "South Hub (hot climate)",
+      "routes": 93
+    },
+    {
+      "route_segment": "Mid-Tier Profile 1",
+      "Depot": "Central Hub",
+      "routes": 46
+    },
+    {
+      "route_segment": "Mid-Tier Profile 1",
+      "Depot": "Coastal Hub",
+      "routes": 48
+    },
+    {
+      "route_segment": "Mid-Tier Profile 1",
+      "Depot": "North Hub (cold climate)",
+      "routes": 55
+    },
+    {
+      "route_segment": "Mid-Tier Profile 1",
+      "Depot": "South Hub (hot climate)",
+      "routes": 56
+    },
+    {
+      "route_segment": "Profit Leaders",
+      "Depot": "Central Hub",
+      "routes": 93
+    },
+    {
+      "route_segment": "Profit Leaders",
+      "Depot": "Coastal Hub",
+      "routes": 88
+    },
+    {
+      "route_segment": "Profit Leaders",
+      "Depot": "North Hub (cold climate)",
+      "routes": 109
+    },
+    {
+      "route_segment": "Profit Leaders",
+      "Depot": "South Hub (hot climate)",
+      "routes": 110
+    }
+  ]
+}

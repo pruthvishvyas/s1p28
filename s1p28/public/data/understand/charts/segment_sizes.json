@@ -1,0 +1,23 @@
+{
+  "id": "segment_sizes",
+  "title": "Route segment sizes",
+  "type": "bar",
+  "question": "What kinds of routes do we run?",
+  "outcome": "UNDERSTAND",
+  "x_label": "Segment",
+  "y_label": "Routes",
+  "data": [
+    {
+      "label": "Profit Leaders",
+      "value": 400.0
+    },
+    {
+      "label": "Loss-Making Profile",
+      "value": 395.0
+    },
+    {
+      "label": "Mid-Tier Profile 1",
+      "value": 205.0
+    }
+  ]
+}

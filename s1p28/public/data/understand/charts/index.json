@@ -1,0 +1,93 @@
+[
+  {
+    "id": "anomaly_rate_by_zone",
+    "title": "Anomaly rate by zone type",
+    "type": "bar",
+    "outcome": "UNDERSTAND",
+    "file": "charts/anomaly_rate_by_zone.json"
+  },
+  {
+    "id": "cost_per_parcel_by_status",
+    "title": "Cost per parcel by cost line and outcome",
+    "type": "bar",
+    "outcome": "DECIDE",
+    "file": "charts/cost_per_parcel_by_status.json"
+  },
+  {
+    "id": "daily_margin_trend",
+    "title": "Daily network margin",
+    "type": "line",
+    "outcome": "MONITOR",
+    "file": "charts/daily_margin_trend.json"
+  },
+  {
+    "id": "loss_rate_by_weather",
+    "title": "Loss-making share by weather",
+    "type": "bar",
+    "outcome": "UNDERSTAND",
+    "file": "charts/loss_rate_by_weather.json"
+  },
+  {
+    "id": "margin_by_depot_zone",
+    "title": "Margin by depot and zone",
+    "type": "heatmap",
+    "outcome": "UNDERSTAND",
+    "file": "charts/margin_by_depot_zone.json"
+  },
+  {
+    "id": "margin_correlations",
+    "title": "Correlation with route margin",
+    "type": "bar",
+    "outcome": "DECIDE",
+    "file": "charts/margin_correlations.json"
+  },
+  {
+    "id": "margin_histogram",
+    "title": "Route margin distribution",
+    "type": "histogram",
+    "outcome": "UNDERSTAND",
+    "file": "charts/margin_histogram.json"
+  },
+  {
+    "id": "overrun_failed_by_status",
+    "title": "Hours overrun and failed-stop rate by outcome",
+    "type": "bar",
+    "outcome": "DECIDE",
+    "file": "charts/overrun_failed_by_status.json"
+  },
+  {
+    "id": "priority_breakdown",
+    "title": "Routes by action priority",
+    "type": "bar",
+    "outcome": "DECIDE",
+    "file": "charts/priority_breakdown.json"
+  },
+  {
+    "id": "profit_status_split",
+    "title": "Profitable vs loss-making routes",
+    "type": "bar",
+    "outcome": "UNDERSTAND",
+    "file": "charts/profit_status_split.json"
+  },
+  {
+    "id": "segment_sizes",
+    "title": "Route segment sizes",
+    "type": "bar",
+    "outcome": "UNDERSTAND",
+    "file": "charts/segment_sizes.json"
+  },
+  {
+    "id": "stops_per_hour_vs_margin",
+    "title": "Stops per hour vs margin (sample)",
+    "type": "scatter",
+    "outcome": "DECIDE",
+    "file": "charts/stops_per_hour_vs_margin.json"
+  },
+  {
+    "id": "top_loss_drivers",
+    "title": "Top pre-dispatch drivers of loss",
+    "type": "bar",
+    "outcome": "DECIDE",
+    "file": "charts/top_loss_drivers.json"
+  }
+]

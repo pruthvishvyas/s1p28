@@ -1,0 +1,46 @@
+{
+  "n_rows": 1000,
+  "n_loss_routes": 347,
+  "model_trained": true,
+  "best_model": "Logistic Regression",
+  "threshold": 0.29,
+  "cv_auc_mean": 0.8959,
+  "test_auc": 0.9108,
+  "test_pr_auc": 0.869,
+  "test_recall": 0.931,
+  "test_precision": 0.5745,
+  "baseline_recall": 0.3218,
+  "top20pct_loss_capture_pct": 72.0587,
+  "all_models": {
+    "Logistic Regression": {
+      "cv_auc_mean": 0.8959,
+      "cv_auc_std": 0.022,
+      "test_auc": 0.9108,
+      "test_pr_auc": 0.869,
+      "test_acc": 0.736,
+      "test_recall": 0.931,
+      "test_precision": 0.5745,
+      "threshold": 0.29
+    },
+    "Random Forest": {
+      "cv_auc_mean": 0.8512,
+      "cv_auc_std": 0.0306,
+      "test_auc": 0.8658,
+      "test_pr_auc": 0.7911,
+      "test_acc": 0.644,
+      "test_recall": 0.977,
+      "test_precision": 0.4942,
+      "threshold": 0.22
+    },
+    "Gradient Boosting": {
+      "cv_auc_mean": 0.8698,
+      "cv_auc_std": 0.0235,
+      "test_auc": 0.8996,
+      "test_pr_auc": 0.8484,
+      "test_acc": 0.676,
+      "test_recall": 0.9425,
+      "test_precision": 0.519,
+      "threshold": 0.11
+    }
+  }
+}

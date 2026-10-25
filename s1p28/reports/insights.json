@@ -1,0 +1,110 @@
+[
+  {
+    "severity": "HIGH",
+    "category": "Labour and Overtime",
+    "finding": "71% of routes run into overtime and earn a lower margin.",
+    "evidence": "Overtime routes margin 4.9% vs 15.9% for the rest; 1935 overtime hours cost about 53,990 in labour.",
+    "action": "Cap planned stops on routes that regularly exceed planned hours.",
+    "outcome": "DECIDE",
+    "impact": 53990.47
+  },
+  {
+    "severity": "HIGH",
+    "category": "Delivery Reliability",
+    "finding": "Failed deliveries, damage claims and SLA penalties leak money every week.",
+    "evidence": "Redelivery 15,598 + damage 13,988 + SLA 30,808 = 60,394; average first-attempt success 94.0%.",
+    "action": "Introduce time-slot booking and pre-delivery notifications on the lanes with the lowest first-attempt rate.",
+    "outcome": "DECIDE",
+    "impact": 46406.1
+  },
+  {
+    "severity": "HIGH",
+    "category": "Customer Experience",
+    "finding": "Late routes drive complaints and SLA exposure.",
+    "evidence": "697 routes were below 90% on-time; their rating averages 4.22 vs 4.44 elsewhere; SLA penalties total 30,808.",
+    "action": "Re-sequence stops and tighten delivery windows on the late routes.",
+    "outcome": "DECIDE",
+    "impact": 30808.0
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Route Profitability",
+    "finding": "34.7% of routes lose money, wiping out a large part of what profitable routes earn.",
+    "evidence": "347 of 1000 routes are loss-making; losses total 24,010 vs net profit 46,054 (7.6% margin).",
+    "action": "Review the P1/P2 routes in the Action List this week before adding new volume.",
+    "outcome": "DECIDE",
+    "impact": 24010.36
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Cost Structure",
+    "finding": "Driver labour is the cost line where losing routes overspend most per parcel.",
+    "evidence": "Losing routes pay 0.48 more per parcel than profitable ones on this line (across 43033 parcels).",
+    "action": "Set a per-parcel cap on this cost line and track it weekly by depot.",
+    "outcome": "DECIDE",
+    "impact": 20525.87
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Route Profitability",
+    "finding": "A pre-dispatch model can warn about loss-making routes before they leave the hub.",
+    "evidence": "Logistic Regression model: test AUC 0.91, recall 93%; the riskiest 20% of routes hold 72% of all losses.",
+    "action": "Review the highest loss_risk_prob routes each evening before dispatch.",
+    "outcome": "DECIDE",
+    "impact": 17301.55
+  },
+  {
+    "severity": "LOW",
+    "category": "Fleet and Capacity",
+    "finding": "476 routes leave the hub with vans under 60% full.",
+    "evidence": "Their margin is 9.5% vs 6.3% for fuller vans.",
+    "action": "Merge neighbouring light routes or swap to a smaller vehicle type.",
+    "outcome": "DECIDE",
+    "impact": 6295.8
+  },
+  {
+    "severity": "LOW",
+    "category": "Route Profitability",
+    "finding": "The weakest lane is North Hub (cold climate) | Urban Dense.",
+    "evidence": "106 routes, net result -3,707, margin -5.4%.",
+    "action": "Re-plan or re-price this depot-zone lane first; see its top loss driver in the recommendations.",
+    "outcome": "DECIDE",
+    "impact": 3707.29
+  },
+  {
+    "severity": "LOW",
+    "category": "Route Profitability",
+    "finding": "50 routes behave unlike the rest of the network.",
+    "evidence": "Anomalous routes hold 2,494 of losses; most common reason: Complaints per 100 parcels unusually high.",
+    "action": "Investigate these routes individually in the Anomaly Explorer.",
+    "outcome": "DECIDE",
+    "impact": 2493.77
+  },
+  {
+    "severity": "LOW",
+    "category": "Demand and Conditions",
+    "finding": "Snow days are the hardest on margin.",
+    "evidence": "-10.2% margin over 14 routes vs 7.6% network average.",
+    "action": "Plan lighter routes and add buffer hours when this weather is forecast.",
+    "outcome": "DECIDE",
+    "impact": 893.95
+  },
+  {
+    "severity": "LOW",
+    "category": "Labour and Overtime",
+    "finding": "Drivers in the <6 months tenure band earn the lowest margin.",
+    "evidence": "<6 months: -6.7% margin vs 9.7% for 12-36 months.",
+    "action": "Pair drivers in this band with mentors and give them shorter route plans.",
+    "outcome": "DECIDE",
+    "impact": 409.97
+  },
+  {
+    "severity": "LOW",
+    "category": "Fleet and Capacity",
+    "finding": "Electric Van is the least profitable vehicle type.",
+    "evidence": "6.0% margin over 256 routes vs 7.6% network average.",
+    "action": "Assign this vehicle to better-suited lanes or review its lease terms.",
+    "outcome": "DECIDE",
+    "impact": 0.0
+  }
+]

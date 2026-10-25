@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-24T12:28:44",
+  "alerts": [
+    {
+      "severity": "HIGH",
+      "category": "Reliability",
+      "message": "On-time delivery 86.9% is below the 90% floor",
+      "action": "Review delivery windows and route sequencing"
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Labour",
+      "message": "Average overtime 1.93 h per route exceeds 0.5 h",
+      "action": "Reduce planned stops on the longest routes"
+    },
+    {
+      "severity": "MEDIUM",
+      "category": "Routes",
+      "message": "9 routes in the window need urgent (P1) action",
+      "action": "Work the P1 list in the Action List"
+    }
+  ]
+}

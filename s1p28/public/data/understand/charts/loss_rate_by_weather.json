@@ -1,0 +1,27 @@
+{
+  "id": "loss_rate_by_weather",
+  "title": "Loss-making share by weather",
+  "type": "bar",
+  "question": "Does weather push routes into loss?",
+  "outcome": "UNDERSTAND",
+  "x_label": "Weather",
+  "y_label": "Loss-making %",
+  "data": [
+    {
+      "label": "Clear",
+      "value": 27.6532
+    },
+    {
+      "label": "Heatwave",
+      "value": 13.3333
+    },
+    {
+      "label": "Rain",
+      "value": 49.6689
+    },
+    {
+      "label": "Snow",
+      "value": 71.4286
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+feature,importance
+Traffic_Index,1.990869455252274
+Vehicle_Type_Cargo Bike,1.6443669725677799
+Revenue_per_Parcel,1.4785180840923278
+Depot_Coastal Hub,1.3171632447474044
+Depot_North Hub (cold climate),1.1556339716372355
+Vehicle_Type_Electric Van,0.9402549851720655
+planned_revenue_per_hour,0.8852513301488449
+Depot_Central Hub,0.8447016768852794
+planned_revenue,0.7886543563395172
+Depot_South Hub (hot climate),0.7046159505330191
+Vehicle_Type_Diesel Van,0.6826684406378125
+Zone_Type_Urban Dense,0.6703783525820751
+planned_stops_per_hour,0.6656573352394465
+km_per_stop,0.6155389359653508
+Delivery_Window_Type_Standard,0.48607073985351523
+parcels_per_stop,0.4746148871059431
+Zone_Type_Suburban,0.4595620070811745
+Weather_Heatwave,0.45218509928372475
+Delivery_Window_Type_Same-day,0.43886998172797675
+Weather_Rain,0.4311594036248017
+Vehicle_Load_Utilization_pct,0.33801521376699695
+Weather_Clear,0.2788296687798115
+Weather_Snow,0.27841181768083106
+Parcels_Planned,0.2756267259791417
+Planned_Hours,0.2734611820223694
+Day_of_Week_Fri,0.2523372985396162
+Day_of_Week_Sat,0.23582170845103104
+Zone_Type_Rural,0.23225989225880542
+Driver_Tenure_Months,0.22098906520121156
+Day_of_Week_Tue,0.16837714755140473
+Day_of_Week_Thu,0.10188082363429048
+Peak_Season_Flag,0.09478999656808279
+Day_of_Week_Wed,0.08973513728512815
+Planned_Stops,0.06617721196197612
+Planned_Route_km,0.05761742055098561
+Delivery_Window_Type_Time-slot,0.025757211367635573
+Day_of_Week_Mon,0.014720323478475014

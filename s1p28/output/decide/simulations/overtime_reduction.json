@@ -1,0 +1,54 @@
+{
+  "scenario": "overtime_reduction",
+  "description": "Profit if overtime hours fall by X%",
+  "variable": "reduction_pct",
+  "assumptions": [
+    "Overtime hours valued at the network average labour cost per hour (no premium assumed - conservative)"
+  ],
+  "baseline": {
+    "revenue": 603739.23,
+    "cost": 557685.15,
+    "profit": 46054.08,
+    "margin_pct": 7.6281,
+    "routes": 1000,
+    "overtime_hours": 1962.3,
+    "labour_rate_per_hour": 27.9049
+  },
+  "results": [
+    {
+      "reduction_pct": 0,
+      "cost_saved": 0.0,
+      "new_profit": 46054.08,
+      "profit_change": 0.0,
+      "new_margin_pct": 7.63
+    },
+    {
+      "reduction_pct": 25,
+      "cost_saved": 13689.46,
+      "new_profit": 59743.54,
+      "profit_change": 13689.46,
+      "new_margin_pct": 9.9
+    },
+    {
+      "reduction_pct": 50,
+      "cost_saved": 27378.93,
+      "new_profit": 73433.01,
+      "profit_change": 27378.93,
+      "new_margin_pct": 12.16
+    },
+    {
+      "reduction_pct": 75,
+      "cost_saved": 41068.39,
+      "new_profit": 87122.47,
+      "profit_change": 41068.39,
+      "new_margin_pct": 14.43
+    },
+    {
+      "reduction_pct": 100,
+      "cost_saved": 54757.86,
+      "new_profit": 100811.94,
+      "profit_change": 54757.86,
+      "new_margin_pct": 16.7
+    }
+  ]
+}

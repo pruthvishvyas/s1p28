@@ -1,0 +1,86 @@
+{
+  "1": {
+    "value": 160.73,
+    "confidence": null,
+    "range_low": -193.85,
+    "range_high": 515.31
+  },
+  "2": {
+    "value": 159.6,
+    "confidence": null,
+    "range_low": -194.98,
+    "range_high": 514.18
+  },
+  "3": {
+    "value": 210.03,
+    "confidence": null,
+    "range_low": -144.55,
+    "range_high": 564.61
+  },
+  "4": {
+    "value": 0.0,
+    "confidence": null,
+    "range_low": -354.58,
+    "range_high": 354.58
+  },
+  "5": {
+    "value": 115.45,
+    "confidence": null,
+    "range_low": -239.14,
+    "range_high": 470.03
+  },
+  "6": {
+    "value": 101.07,
+    "confidence": null,
+    "range_low": -253.52,
+    "range_high": 455.65
+  },
+  "7": {
+    "value": 187.38,
+    "confidence": null,
+    "range_low": -167.2,
+    "range_high": 541.96
+  },
+  "8": {
+    "value": 160.73,
+    "confidence": null,
+    "range_low": -193.85,
+    "range_high": 515.31
+  },
+  "9": {
+    "value": 159.6,
+    "confidence": null,
+    "range_low": -194.98,
+    "range_high": 514.18
+  },
+  "10": {
+    "value": 210.03,
+    "confidence": null,
+    "range_low": -144.55,
+    "range_high": 564.61
+  },
+  "11": {
+    "value": 0.0,
+    "confidence": null,
+    "range_low": -354.58,
+    "range_high": 354.58
+  },
+  "12": {
+    "value": 115.45,
+    "confidence": null,
+    "range_low": -239.14,
+    "range_high": 470.03
+  },
+  "13": {
+    "value": 101.07,
+    "confidence": null,
+    "range_low": -253.52,
+    "range_high": 455.65
+  },
+  "14": {
+    "value": 187.38,
+    "confidence": null,
+    "range_low": -167.2,
+    "range_high": 541.96
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "total_routes": 1000,
+  "date_from": "2025-10-01",
+  "date_to": "2026-09-30",
+  "total_revenue": 603739.23,
+  "total_cost": 557685.15,
+  "gross_profit": 46054.08,
+  "margin_pct": 7.6281,
+  "loss_making_routes": 347,
+  "loss_making_share_pct": 34.7,
+  "avg_cost_per_parcel": 5.2105,
+  "on_time_pct": 85.957,
+  "first_attempt_pct": 94.9085,
+  "overtime_route_share_pct": 70.7,
+  "avg_rating": 4.2879,
+  "avg_route_stress": 50.03,
+  "anomaly_count": 50,
+  "p1_count": 319,
+  "model_auc": 0.9108,
+  "co2_kg_total": 20286.0,
+  "cards": [
+    {
+      "key": "gross_profit",
+      "label": "Gross Profit",
+      "value": 46054.08,
+      "unit": "currency"
+    },
+    {
+      "key": "margin_pct",
+      "label": "Margin",
+      "value": 7.6281,
+      "unit": "percent"
+    },
+    {
+      "key": "total_routes",
+      "label": "Routes",
+      "value": 1000,
+      "unit": "count"
+    },
+    {
+      "key": "loss_making_share_pct",
+      "label": "Loss-Making Routes",
+      "value": 34.7,
+      "unit": "percent"
+    },
+    {
+      "key": "on_time_pct",
+      "label": "On-Time Deliveries",
+      "value": 85.957,
+      "unit": "percent"
+    },
+    {
+      "key": "first_attempt_pct",
+      "label": "First-Attempt Success",
+      "value": 94.9085,
+      "unit": "percent"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "rows": 1000,
+  "cols": 49,
+  "missing_columns": [],
+  "null_columns": {},
+  "loss_making_routes": 347,
+  "loss_making_share": 0.347,
+  "integrity_checks": {
+    "cost_components_do_not_sum_to_total": 0,
+    "profit_not_revenue_minus_cost": 0,
+    "stops_attempted_gt_planned": 0,
+    "delivered_gt_planned_parcels": 0,
+    "negative_revenue_or_cost": 0,
+    "duplicate_route_ids": 0,
+    "unparseable_dates": 0
+  },
+  "schema_ok": true,
+  "column_resolution": [],
+  "enough_rows_for_ml": true
+}

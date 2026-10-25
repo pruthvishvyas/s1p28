@@ -1,0 +1,1001 @@
+Route_ID,Route_Date,Depot,Zone_Type,is_unprofitable,loss_risk_prob,loss_risk_flag
+RT-600001,2025-10-01,North Hub (cold climate),Suburban,1,0.7136,1
+RT-600002,2025-10-02,Central Hub,Suburban,0,0.4012,1
+RT-600003,2025-10-02,Coastal Hub,Suburban,0,0.1133,0
+RT-600004,2025-10-02,South Hub (hot climate),Urban Dense,0,0.4586,1
+RT-600005,2025-10-03,Central Hub,Suburban,1,0.6721,1
+RT-600006,2025-10-03,Central Hub,Suburban,1,0.7638,1
+RT-600007,2025-10-03,Central Hub,Urban Dense,0,0.0097,0
+RT-600008,2025-10-03,Central Hub,Rural,0,0.1499,0
+RT-600009,2025-10-03,Central Hub,Suburban,0,0.2534,0
+RT-600010,2025-10-04,South Hub (hot climate),Urban Dense,0,0.1218,0
+RT-600011,2025-10-04,Coastal Hub,Urban Dense,1,0.4247,1
+RT-600012,2025-10-04,Central Hub,Urban Dense,0,0.0236,0
+RT-600013,2025-10-06,North Hub (cold climate),Rural,0,0.0748,0
+RT-600014,2025-10-06,North Hub (cold climate),Suburban,0,0.0057,0
+RT-600015,2025-10-06,South Hub (hot climate),Urban Dense,0,0.6341,1
+RT-600016,2025-10-07,South Hub (hot climate),Urban Dense,0,0.1513,0
+RT-600017,2025-10-08,Coastal Hub,Suburban,0,0.0292,0
+RT-600018,2025-10-09,Central Hub,Urban Dense,1,0.925,1
+RT-600019,2025-10-09,North Hub (cold climate),Suburban,1,0.864,1
+RT-600020,2025-10-09,South Hub (hot climate),Rural,0,0.114,0
+RT-600021,2025-10-09,South Hub (hot climate),Urban Dense,0,0.4945,1
+RT-600022,2025-10-10,South Hub (hot climate),Rural,0,0.1528,0
+RT-600023,2025-10-10,Central Hub,Urban Dense,1,0.9692,1
+RT-600024,2025-10-10,Coastal Hub,Rural,0,0.0645,0
+RT-600025,2025-10-10,Central Hub,Suburban,0,0.4332,1
+RT-600026,2025-10-10,South Hub (hot climate),Suburban,0,0.4933,1
+RT-600027,2025-10-13,Coastal Hub,Urban Dense,1,0.1037,0
+RT-600028,2025-10-13,North Hub (cold climate),Suburban,0,0.5475,1
+RT-600029,2025-10-14,Coastal Hub,Rural,0,0.5809,1
+RT-600030,2025-10-14,Central Hub,Suburban,1,0.6764,1
+RT-600031,2025-10-14,Coastal Hub,Urban Dense,0,0.1832,0
+RT-600032,2025-10-14,South Hub (hot climate),Suburban,1,0.9658,1
+RT-600033,2025-10-14,South Hub (hot climate),Rural,1,0.7232,1
+RT-600034,2025-10-15,South Hub (hot climate),Urban Dense,1,0.8726,1
+RT-600035,2025-10-15,South Hub (hot climate),Urban Dense,0,0.4878,1
+RT-600036,2025-10-16,Central Hub,Urban Dense,1,0.9316,1
+RT-600037,2025-10-17,North Hub (cold climate),Suburban,1,0.7616,1
+RT-600038,2025-10-17,Coastal Hub,Rural,0,0.0401,0
+RT-600039,2025-10-17,South Hub (hot climate),Urban Dense,0,0.4386,1
+RT-600040,2025-10-17,Coastal Hub,Rural,0,0.0012,0
+RT-600041,2025-10-17,North Hub (cold climate),Urban Dense,0,0.3786,1
+RT-600042,2025-10-17,South Hub (hot climate),Urban Dense,0,0.1838,0
+RT-600043,2025-10-18,South Hub (hot climate),Suburban,0,0.5743,1
+RT-600044,2025-10-18,Central Hub,Suburban,0,0.002,0
+RT-600045,2025-10-18,North Hub (cold climate),Suburban,1,0.7694,1
+RT-600046,2025-10-20,South Hub (hot climate),Urban Dense,1,0.9333,1
+RT-600047,2025-10-20,North Hub (cold climate),Suburban,0,0.0059,0
+RT-600048,2025-10-21,South Hub (hot climate),Rural,0,0.0027,0
+RT-600049,2025-10-22,South Hub (hot climate),Urban Dense,0,0.2323,0
+RT-600050,2025-10-23,South Hub (hot climate),Rural,0,0.2311,0
+RT-600051,2025-10-23,Central Hub,Urban Dense,0,0.0132,0
+RT-600052,2025-10-23,Central Hub,Rural,1,0.5821,1
+RT-600053,2025-10-23,Central Hub,Urban Dense,1,0.4349,1
+RT-600054,2025-10-23,South Hub (hot climate),Urban Dense,0,0.5445,1
+RT-600055,2025-10-24,Coastal Hub,Urban Dense,0,0.1996,0
+RT-600056,2025-10-24,Central Hub,Suburban,1,0.5402,1
+RT-600057,2025-10-24,Coastal Hub,Urban Dense,0,0.5404,1
+RT-600058,2025-10-25,North Hub (cold climate),Rural,0,0.1561,0
+RT-600059,2025-10-25,North Hub (cold climate),Urban Dense,1,0.9955,1
+RT-600060,2025-10-25,Coastal Hub,Urban Dense,0,0.0175,0
+RT-600061,2025-10-25,Central Hub,Urban Dense,1,0.8515,1
+RT-600062,2025-10-25,South Hub (hot climate),Suburban,0,0.1309,0
+RT-600063,2025-10-25,Central Hub,Suburban,0,0.5453,1
+RT-600064,2025-10-25,Coastal Hub,Urban Dense,1,0.8725,1
+RT-600065,2025-10-27,Central Hub,Suburban,0,0.1644,0
+RT-600066,2025-10-27,North Hub (cold climate),Rural,0,0.1784,0
+RT-600067,2025-10-27,South Hub (hot climate),Suburban,0,0.2386,0
+RT-600068,2025-10-27,Coastal Hub,Suburban,0,0.0934,0
+RT-600069,2025-10-28,Coastal Hub,Suburban,1,0.7936,1
+RT-600070,2025-10-28,North Hub (cold climate),Rural,0,0.1524,0
+RT-600071,2025-10-29,South Hub (hot climate),Urban Dense,0,0.0005,0
+RT-600072,2025-10-29,Central Hub,Urban Dense,1,0.4238,1
+RT-600073,2025-10-29,North Hub (cold climate),Rural,0,0.0149,0
+RT-600074,2025-10-29,North Hub (cold climate),Urban Dense,1,0.7824,1
+RT-600075,2025-10-29,South Hub (hot climate),Urban Dense,0,0.5635,1
+RT-600076,2025-10-30,North Hub (cold climate),Suburban,0,0.0227,0
+RT-600077,2025-10-31,Coastal Hub,Urban Dense,1,0.8563,1
+RT-600078,2025-10-31,North Hub (cold climate),Urban Dense,1,0.9909,1
+RT-600079,2025-10-31,South Hub (hot climate),Suburban,0,0.0056,0
+RT-600080,2025-11-03,North Hub (cold climate),Urban Dense,1,0.8553,1
+RT-600081,2025-11-04,North Hub (cold climate),Suburban,1,0.7842,1
+RT-600082,2025-11-05,Coastal Hub,Suburban,0,0.0363,0
+RT-600083,2025-11-05,North Hub (cold climate),Rural,0,0.2878,0
+RT-600084,2025-11-06,Central Hub,Urban Dense,0,0.0574,0
+RT-600085,2025-11-07,North Hub (cold climate),Rural,0,0.6472,1
+RT-600086,2025-11-08,South Hub (hot climate),Rural,0,0.1033,0
+RT-600087,2025-11-08,Coastal Hub,Suburban,0,0.0323,0
+RT-600088,2025-11-08,Coastal Hub,Urban Dense,1,0.3454,1
+RT-600089,2025-11-10,Central Hub,Urban Dense,0,0.1812,0
+RT-600090,2025-11-10,North Hub (cold climate),Rural,0,0.2232,0
+RT-600091,2025-11-10,North Hub (cold climate),Urban Dense,1,0.9911,1
+RT-600092,2025-11-11,Central Hub,Urban Dense,1,0.9469,1
+RT-600093,2025-11-12,Coastal Hub,Suburban,0,0.0436,0
+RT-600094,2025-11-12,North Hub (cold climate),Suburban,1,0.5568,1
+RT-600095,2025-11-12,Central Hub,Suburban,0,0.0022,0
+RT-600096,2025-11-14,Central Hub,Rural,0,0.1747,0
+RT-600097,2025-11-14,Coastal Hub,Urban Dense,1,0.1863,0
+RT-600098,2025-11-14,North Hub (cold climate),Urban Dense,1,0.9904,1
+RT-600099,2025-11-14,North Hub (cold climate),Urban Dense,1,0.3478,1
+RT-600100,2025-11-14,Coastal Hub,Suburban,0,0.0754,0
+RT-600101,2025-11-15,North Hub (cold climate),Rural,0,0.2045,0
+RT-600102,2025-11-15,Coastal Hub,Urban Dense,0,0.2318,0
+RT-600103,2025-11-15,Central Hub,Suburban,0,0.5683,1
+RT-600104,2025-11-17,North Hub (cold climate),Rural,0,0.5133,1
+RT-600105,2025-11-18,South Hub (hot climate),Urban Dense,0,0.6596,1
+RT-600106,2025-11-18,Coastal Hub,Urban Dense,1,0.6662,1
+RT-600107,2025-11-18,North Hub (cold climate),Urban Dense,0,0.6824,1
+RT-600108,2025-11-19,North Hub (cold climate),Rural,0,0.4838,1
+RT-600109,2025-11-19,Coastal Hub,Urban Dense,0,0.0358,0
+RT-600110,2025-11-20,South Hub (hot climate),Urban Dense,0,0.3447,1
+RT-600111,2025-11-20,Central Hub,Suburban,1,0.9132,1
+RT-600112,2025-11-20,Central Hub,Urban Dense,1,0.717,1
+RT-600113,2025-11-20,South Hub (hot climate),Rural,0,0.5469,1
+RT-600114,2025-11-20,North Hub (cold climate),Rural,1,0.5449,1
+RT-600115,2025-11-20,South Hub (hot climate),Suburban,0,0.2757,0
+RT-600116,2025-11-20,North Hub (cold climate),Suburban,1,0.8517,1
+RT-600117,2025-11-21,North Hub (cold climate),Urban Dense,1,0.9777,1
+RT-600118,2025-11-21,North Hub (cold climate),Urban Dense,1,0.4491,1
+RT-600119,2025-11-21,Coastal Hub,Suburban,0,0.4966,1
+RT-600120,2025-11-21,South Hub (hot climate),Urban Dense,0,0.0004,0
+RT-600121,2025-11-21,South Hub (hot climate),Urban Dense,1,0.8794,1
+RT-600122,2025-11-22,Coastal Hub,Suburban,0,0.0847,0
+RT-600123,2025-11-22,North Hub (cold climate),Urban Dense,1,0.9738,1
+RT-600124,2025-11-22,Central Hub,Rural,0,0.8074,1
+RT-600125,2025-11-22,North Hub (cold climate),Suburban,1,0.7643,1
+RT-600126,2025-11-24,South Hub (hot climate),Rural,1,0.6543,1
+RT-600127,2025-11-24,Central Hub,Suburban,1,0.7823,1
+RT-600128,2025-11-24,Central Hub,Urban Dense,1,0.9163,1
+RT-600129,2025-11-24,South Hub (hot climate),Urban Dense,0,0.0583,0
+RT-600130,2025-11-25,Coastal Hub,Urban Dense,0,0.1208,0
+RT-600131,2025-11-25,South Hub (hot climate),Urban Dense,1,0.715,1
+RT-600132,2025-11-25,Central Hub,Urban Dense,1,0.9477,1
+RT-600133,2025-11-25,Central Hub,Urban Dense,0,0.061,0
+RT-600134,2025-11-26,South Hub (hot climate),Suburban,0,0.0461,0
+RT-600135,2025-11-26,South Hub (hot climate),Rural,0,0.1003,0
+RT-600136,2025-11-26,Coastal Hub,Rural,0,0.0286,0
+RT-600137,2025-11-26,North Hub (cold climate),Urban Dense,0,0.9078,1
+RT-600138,2025-11-26,North Hub (cold climate),Suburban,0,0.6696,1
+RT-600139,2025-11-27,South Hub (hot climate),Rural,0,0.1229,0
+RT-600140,2025-11-27,Central Hub,Suburban,0,0.484,1
+RT-600141,2025-11-27,Coastal Hub,Suburban,0,0.0042,0
+RT-600142,2025-11-27,Central Hub,Urban Dense,1,0.5231,1
+RT-600143,2025-11-27,South Hub (hot climate),Urban Dense,0,0.0019,0
+RT-600144,2025-11-28,Central Hub,Suburban,1,0.4268,1
+RT-600145,2025-11-28,South Hub (hot climate),Rural,0,0.6493,1
+RT-600146,2025-11-28,North Hub (cold climate),Urban Dense,1,0.75,1
+RT-600147,2025-11-28,North Hub (cold climate),Suburban,0,0.7818,1
+RT-600148,2025-11-28,Central Hub,Urban Dense,0,0.2566,0
+RT-600149,2025-11-28,South Hub (hot climate),Suburban,1,0.5443,1
+RT-600150,2025-11-28,Central Hub,Suburban,1,0.6822,1
+RT-600151,2025-11-29,Central Hub,Urban Dense,0,0.0017,0
+RT-600152,2025-11-29,North Hub (cold climate),Urban Dense,1,0.9972,1
+RT-600153,2025-11-29,South Hub (hot climate),Suburban,0,0.4013,1
+RT-600154,2025-11-29,Central Hub,Suburban,1,0.92,1
+RT-600155,2025-12-01,South Hub (hot climate),Urban Dense,0,0.2413,0
+RT-600156,2025-12-01,South Hub (hot climate),Suburban,0,0.243,0
+RT-600157,2025-12-01,South Hub (hot climate),Suburban,0,0.4231,1
+RT-600158,2025-12-01,Coastal Hub,Rural,0,0.1624,0
+RT-600159,2025-12-02,North Hub (cold climate),Rural,1,0.4401,1
+RT-600160,2025-12-02,Coastal Hub,Urban Dense,0,0.5537,1
+RT-600161,2025-12-02,Central Hub,Rural,1,0.9489,1
+RT-600162,2025-12-02,Central Hub,Urban Dense,1,0.5751,1
+RT-600163,2025-12-02,North Hub (cold climate),Suburban,1,0.9215,1
+RT-600164,2025-12-02,Central Hub,Suburban,1,0.8754,1
+RT-600165,2025-12-02,South Hub (hot climate),Suburban,0,0.5169,1
+RT-600166,2025-12-02,North Hub (cold climate),Rural,0,0.5394,1
+RT-600167,2025-12-03,Central Hub,Rural,0,0.086,0
+RT-600168,2025-12-03,South Hub (hot climate),Suburban,0,0.1391,0
+RT-600169,2025-12-03,North Hub (cold climate),Rural,1,0.8221,1
+RT-600170,2025-12-04,Coastal Hub,Urban Dense,0,0.2469,0
+RT-600171,2025-12-04,South Hub (hot climate),Rural,0,0.1773,0
+RT-600172,2025-12-04,South Hub (hot climate),Urban Dense,0,0.4849,1
+RT-600173,2025-12-05,Coastal Hub,Urban Dense,0,0.1855,0
+RT-600174,2025-12-05,South Hub (hot climate),Urban Dense,1,0.8135,1
+RT-600175,2025-12-05,North Hub (cold climate),Suburban,1,0.9846,1
+RT-600176,2025-12-06,Coastal Hub,Urban Dense,0,0.923,1
+RT-600177,2025-12-06,Central Hub,Suburban,0,0.7259,1
+RT-600178,2025-12-06,North Hub (cold climate),Suburban,1,0.8724,1
+RT-600179,2025-12-06,South Hub (hot climate),Rural,1,0.3383,1
+RT-600180,2025-12-06,Coastal Hub,Urban Dense,0,0.6168,1
+RT-600181,2025-12-08,North Hub (cold climate),Urban Dense,0,0.0043,0
+RT-600182,2025-12-08,North Hub (cold climate),Suburban,0,0.0887,0
+RT-600183,2025-12-09,North Hub (cold climate),Rural,0,0.7225,1
+RT-600184,2025-12-09,Central Hub,Suburban,0,0.0294,0
+RT-600185,2025-12-09,North Hub (cold climate),Rural,0,0.3639,1
+RT-600186,2025-12-09,North Hub (cold climate),Suburban,1,0.4252,1
+RT-600187,2025-12-10,Central Hub,Rural,1,0.6145,1
+RT-600188,2025-12-10,Central Hub,Suburban,1,0.3715,1
+RT-600189,2025-12-10,Central Hub,Suburban,0,0.3988,1
+RT-600190,2025-12-10,Central Hub,Urban Dense,1,0.9961,1
+RT-600191,2025-12-10,Central Hub,Rural,0,0.3889,1
+RT-600192,2025-12-11,South Hub (hot climate),Urban Dense,1,0.7521,1
+RT-600193,2025-12-12,North Hub (cold climate),Suburban,1,0.8893,1
+RT-600194,2025-12-12,North Hub (cold climate),Rural,0,0.42,1
+RT-600195,2025-12-12,Coastal Hub,Rural,0,0.3938,1
+RT-600196,2025-12-12,South Hub (hot climate),Urban Dense,0,0.7055,1
+RT-600197,2025-12-12,South Hub (hot climate),Suburban,0,0.0638,0
+RT-600198,2025-12-13,South Hub (hot climate),Urban Dense,0,0.0034,0
+RT-600199,2025-12-13,Coastal Hub,Urban Dense,0,0.0009,0
+RT-600200,2025-12-13,South Hub (hot climate),Rural,0,0.3996,1
+RT-600201,2025-12-13,South Hub (hot climate),Rural,0,0.2258,0
+RT-600202,2025-12-15,Central Hub,Urban Dense,0,0.1562,0
+RT-600203,2025-12-15,Coastal Hub,Suburban,0,0.0674,0
+RT-600204,2025-12-15,Coastal Hub,Suburban,0,0.199,0
+RT-600205,2025-12-15,Coastal Hub,Suburban,0,0.0163,0
+RT-600206,2025-12-15,Central Hub,Suburban,1,0.9516,1
+RT-600207,2025-12-15,South Hub (hot climate),Suburban,1,0.8857,1
+RT-600208,2025-12-15,Central Hub,Rural,0,0.3399,1
+RT-600209,2025-12-15,South Hub (hot climate),Urban Dense,0,0.1432,0
+RT-600210,2025-12-15,South Hub (hot climate),Suburban,0,0.0414,0
+RT-600211,2025-12-16,Central Hub,Rural,0,0.4662,1
+RT-600212,2025-12-16,North Hub (cold climate),Suburban,1,0.9064,1
+RT-600213,2025-12-16,Coastal Hub,Urban Dense,1,0.7533,1
+RT-600214,2025-12-16,North Hub (cold climate),Urban Dense,1,0.9488,1
+RT-600215,2025-12-16,Central Hub,Urban Dense,1,0.9797,1
+RT-600216,2025-12-17,Coastal Hub,Rural,0,0.0214,0
+RT-600217,2025-12-17,South Hub (hot climate),Rural,0,0.0362,0
+RT-600218,2025-12-17,Central Hub,Suburban,1,0.7944,1
+RT-600219,2025-12-17,South Hub (hot climate),Urban Dense,0,0.7681,1
+RT-600220,2025-12-17,Coastal Hub,Suburban,0,0.0414,0
+RT-600221,2025-12-17,North Hub (cold climate),Urban Dense,0,0.5455,1
+RT-600222,2025-12-17,Central Hub,Urban Dense,1,0.9558,1
+RT-600223,2025-12-17,South Hub (hot climate),Urban Dense,1,0.4096,1
+RT-600224,2025-12-18,South Hub (hot climate),Suburban,1,0.8623,1
+RT-600225,2025-12-18,Central Hub,Rural,1,0.9685,1
+RT-600226,2025-12-18,Central Hub,Suburban,0,0.1999,0
+RT-600227,2025-12-18,North Hub (cold climate),Rural,1,0.7306,1
+RT-600228,2025-12-18,North Hub (cold climate),Urban Dense,0,0.1705,0
+RT-600229,2025-12-18,Coastal Hub,Urban Dense,0,0.0455,0
+RT-600230,2025-12-19,Central Hub,Urban Dense,0,0.6666,1
+RT-600231,2025-12-19,Coastal Hub,Urban Dense,1,0.9419,1
+RT-600232,2025-12-19,Coastal Hub,Urban Dense,1,0.8738,1
+RT-600233,2025-12-19,Coastal Hub,Urban Dense,1,0.9792,1
+RT-600234,2025-12-19,North Hub (cold climate),Suburban,1,0.9673,1
+RT-600235,2025-12-19,Central Hub,Suburban,1,0.9487,1
+RT-600236,2025-12-19,Coastal Hub,Rural,1,0.9109,1
+RT-600237,2025-12-20,Central Hub,Urban Dense,0,0.5659,1
+RT-600238,2025-12-20,South Hub (hot climate),Rural,0,0.0574,0
+RT-600239,2025-12-20,North Hub (cold climate),Urban Dense,1,0.9591,1
+RT-600240,2025-12-20,Coastal Hub,Urban Dense,0,0.5445,1
+RT-600241,2025-12-20,Coastal Hub,Rural,0,0.1437,0
+RT-600242,2025-12-20,South Hub (hot climate),Suburban,0,0.6301,1
+RT-600243,2025-12-22,Coastal Hub,Urban Dense,0,0.6291,1
+RT-600244,2025-12-22,Central Hub,Suburban,1,0.6489,1
+RT-600245,2025-12-22,Central Hub,Urban Dense,0,0.0017,0
+RT-600246,2025-12-22,Coastal Hub,Suburban,0,0.0734,0
+RT-600247,2025-12-22,South Hub (hot climate),Urban Dense,0,0.1733,0
+RT-600248,2025-12-22,Coastal Hub,Urban Dense,0,0.1677,0
+RT-600249,2025-12-22,Central Hub,Rural,1,0.699,1
+RT-600250,2025-12-22,Central Hub,Suburban,1,0.9198,1
+RT-600251,2025-12-22,Coastal Hub,Rural,1,0.1191,0
+RT-600252,2025-12-22,North Hub (cold climate),Urban Dense,1,0.9948,1
+RT-600253,2025-12-22,Central Hub,Suburban,1,0.1369,0
+RT-600254,2025-12-22,North Hub (cold climate),Urban Dense,1,0.9782,1
+RT-600255,2025-12-23,North Hub (cold climate),Urban Dense,0,0.8345,1
+RT-600256,2025-12-23,Central Hub,Rural,1,0.8662,1
+RT-600257,2025-12-23,North Hub (cold climate),Urban Dense,1,0.9509,1
+RT-600258,2025-12-23,South Hub (hot climate),Rural,1,0.8898,1
+RT-600259,2025-12-23,Coastal Hub,Suburban,0,0.2883,0
+RT-600260,2025-12-24,South Hub (hot climate),Urban Dense,0,0.0793,0
+RT-600261,2025-12-24,Central Hub,Urban Dense,1,0.9824,1
+RT-600262,2025-12-25,South Hub (hot climate),Suburban,0,0.0042,0
+RT-600263,2025-12-26,North Hub (cold climate),Suburban,0,0.0281,0
+RT-600264,2025-12-26,South Hub (hot climate),Suburban,1,0.922,1
+RT-600265,2025-12-27,Central Hub,Rural,0,0.1651,0
+RT-600266,2025-12-27,Coastal Hub,Suburban,1,0.8876,1
+RT-600267,2025-12-29,North Hub (cold climate),Suburban,1,0.9747,1
+RT-600268,2025-12-29,Central Hub,Urban Dense,0,0.9474,1
+RT-600269,2025-12-30,North Hub (cold climate),Urban Dense,1,0.9259,1
+RT-600270,2025-12-31,Central Hub,Suburban,0,0.2958,1
+RT-600271,2025-12-31,Coastal Hub,Rural,0,0.0035,0
+RT-600272,2025-12-31,North Hub (cold climate),Urban Dense,1,0.8578,1
+RT-600273,2026-01-01,North Hub (cold climate),Urban Dense,1,0.8152,1
+RT-600274,2026-01-01,South Hub (hot climate),Urban Dense,0,0.1495,0
+RT-600275,2026-01-01,South Hub (hot climate),Urban Dense,0,0.5845,1
+RT-600276,2026-01-01,Coastal Hub,Suburban,0,0.0003,0
+RT-600277,2026-01-02,Coastal Hub,Urban Dense,0,0.016,0
+RT-600278,2026-01-02,North Hub (cold climate),Suburban,0,0.0617,0
+RT-600279,2026-01-02,North Hub (cold climate),Urban Dense,0,0.3135,1
+RT-600280,2026-01-03,South Hub (hot climate),Urban Dense,0,0.1463,0
+RT-600281,2026-01-03,South Hub (hot climate),Urban Dense,1,0.9299,1
+RT-600282,2026-01-03,Central Hub,Urban Dense,1,0.9644,1
+RT-600283,2026-01-03,North Hub (cold climate),Suburban,1,0.4002,1
+RT-600284,2026-01-03,South Hub (hot climate),Urban Dense,0,0.0002,0
+RT-600285,2026-01-05,Coastal Hub,Rural,0,0.0934,0
+RT-600286,2026-01-06,Central Hub,Urban Dense,1,0.997,1
+RT-600287,2026-01-06,Central Hub,Urban Dense,1,0.9837,1
+RT-600288,2026-01-06,South Hub (hot climate),Rural,0,0.1424,0
+RT-600289,2026-01-06,South Hub (hot climate),Urban Dense,1,0.4585,1
+RT-600290,2026-01-06,South Hub (hot climate),Suburban,1,0.0811,0
+RT-600291,2026-01-06,Coastal Hub,Urban Dense,0,0.5397,1
+RT-600292,2026-01-06,Central Hub,Suburban,1,0.9478,1
+RT-600293,2026-01-07,Coastal Hub,Rural,0,0.2274,0
+RT-600294,2026-01-07,South Hub (hot climate),Urban Dense,1,0.9664,1
+RT-600295,2026-01-08,South Hub (hot climate),Suburban,0,0.6261,1
+RT-600296,2026-01-09,Central Hub,Urban Dense,1,0.824,1
+RT-600297,2026-01-09,North Hub (cold climate),Rural,1,0.4828,1
+RT-600298,2026-01-10,Central Hub,Urban Dense,1,0.9603,1
+RT-600299,2026-01-10,North Hub (cold climate),Suburban,0,0.2968,1
+RT-600300,2026-01-12,South Hub (hot climate),Suburban,0,0.1551,0
+RT-600301,2026-01-12,North Hub (cold climate),Rural,0,0.0968,0
+RT-600302,2026-01-12,Coastal Hub,Urban Dense,0,0.0078,0
+RT-600303,2026-01-14,South Hub (hot climate),Rural,0,0.0815,0
+RT-600304,2026-01-14,North Hub (cold climate),Rural,0,0.294,1
+RT-600305,2026-01-14,Coastal Hub,Suburban,0,0.0967,0
+RT-600306,2026-01-14,North Hub (cold climate),Urban Dense,1,0.9859,1
+RT-600307,2026-01-14,Central Hub,Urban Dense,0,0.0137,0
+RT-600308,2026-01-14,Coastal Hub,Urban Dense,1,0.2649,0
+RT-600309,2026-01-15,Coastal Hub,Urban Dense,0,0.0005,0
+RT-600310,2026-01-15,North Hub (cold climate),Suburban,0,0.1495,0
+RT-600311,2026-01-15,Central Hub,Suburban,1,0.7663,1
+RT-600312,2026-01-15,North Hub (cold climate),Suburban,0,0.2104,0
+RT-600313,2026-01-15,South Hub (hot climate),Suburban,0,0.0255,0
+RT-600314,2026-01-16,North Hub (cold climate),Suburban,0,0.5377,1
+RT-600315,2026-01-16,Central Hub,Urban Dense,0,0.5935,1
+RT-600316,2026-01-16,Central Hub,Urban Dense,0,0.1631,0
+RT-600317,2026-01-17,Coastal Hub,Urban Dense,1,0.3841,1
+RT-600318,2026-01-17,Coastal Hub,Urban Dense,0,0.0321,0
+RT-600319,2026-01-17,Central Hub,Suburban,0,0.5678,1
+RT-600320,2026-01-17,South Hub (hot climate),Urban Dense,1,0.4372,1
+RT-600321,2026-01-19,Central Hub,Rural,0,0.2223,0
+RT-600322,2026-01-19,South Hub (hot climate),Suburban,1,0.5389,1
+RT-600323,2026-01-21,South Hub (hot climate),Suburban,0,0.5142,1
+RT-600324,2026-01-21,Coastal Hub,Suburban,1,0.2902,1
+RT-600325,2026-01-21,North Hub (cold climate),Urban Dense,1,0.9487,1
+RT-600326,2026-01-23,North Hub (cold climate),Suburban,0,0.7967,1
+RT-600327,2026-01-23,South Hub (hot climate),Rural,1,0.2178,0
+RT-600328,2026-01-24,Central Hub,Suburban,0,0.0061,0
+RT-600329,2026-01-24,Central Hub,Rural,0,0.1553,0
+RT-600330,2026-01-24,Coastal Hub,Urban Dense,0,0.512,1
+RT-600331,2026-01-26,Coastal Hub,Suburban,0,0.35,1
+RT-600332,2026-01-26,South Hub (hot climate),Suburban,0,0.0626,0
+RT-600333,2026-01-27,Coastal Hub,Urban Dense,0,0.3965,1
+RT-600334,2026-01-28,Central Hub,Suburban,0,0.0011,0
+RT-600335,2026-01-29,Coastal Hub,Urban Dense,0,0.5512,1
+RT-600336,2026-01-29,North Hub (cold climate),Urban Dense,0,0.5233,1
+RT-600337,2026-01-30,Central Hub,Urban Dense,0,0.516,1
+RT-600338,2026-01-30,Central Hub,Urban Dense,0,0.0503,0
+RT-600339,2026-01-30,North Hub (cold climate),Rural,0,0.031,0
+RT-600340,2026-01-30,Coastal Hub,Rural,0,0.2075,0
+RT-600341,2026-01-30,South Hub (hot climate),Suburban,1,0.2294,0
+RT-600342,2026-01-30,Coastal Hub,Urban Dense,1,0.9509,1
+RT-600343,2026-01-31,Coastal Hub,Urban Dense,0,0.5935,1
+RT-600344,2026-01-31,South Hub (hot climate),Suburban,0,0.772,1
+RT-600345,2026-01-31,Central Hub,Urban Dense,0,0.2284,0
+RT-600346,2026-01-31,Central Hub,Suburban,0,0.3085,1
+RT-600347,2026-02-02,North Hub (cold climate),Rural,1,0.6333,1
+RT-600348,2026-02-02,South Hub (hot climate),Urban Dense,0,0.6058,1
+RT-600349,2026-02-02,Coastal Hub,Suburban,0,0.0254,0
+RT-600350,2026-02-03,North Hub (cold climate),Suburban,0,0.0903,0
+RT-600351,2026-02-03,South Hub (hot climate),Suburban,1,0.3381,1
+RT-600352,2026-02-03,Central Hub,Urban Dense,0,0.0054,0
+RT-600353,2026-02-03,South Hub (hot climate),Urban Dense,0,0.1173,0
+RT-600354,2026-02-04,Central Hub,Urban Dense,1,0.8708,1
+RT-600355,2026-02-05,Coastal Hub,Rural,0,0.0083,0
+RT-600356,2026-02-05,North Hub (cold climate),Rural,0,0.0278,0
+RT-600357,2026-02-06,Coastal Hub,Urban Dense,0,0.4427,1
+RT-600358,2026-02-07,South Hub (hot climate),Urban Dense,0,0.1088,0
+RT-600359,2026-02-09,Coastal Hub,Suburban,0,0.2128,0
+RT-600360,2026-02-09,South Hub (hot climate),Suburban,0,0.5257,1
+RT-600361,2026-02-09,South Hub (hot climate),Urban Dense,1,0.6432,1
+RT-600362,2026-02-10,Coastal Hub,Urban Dense,0,0.656,1
+RT-600363,2026-02-10,South Hub (hot climate),Urban Dense,0,0.0026,0
+RT-600364,2026-02-10,South Hub (hot climate),Urban Dense,1,0.3679,1
+RT-600365,2026-02-10,Central Hub,Urban Dense,0,0.8201,1
+RT-600366,2026-02-11,Central Hub,Urban Dense,1,0.7478,1
+RT-600367,2026-02-11,North Hub (cold climate),Urban Dense,0,0.3779,1
+RT-600368,2026-02-11,Coastal Hub,Suburban,0,0.2485,0
+RT-600369,2026-02-12,Central Hub,Suburban,1,0.209,0
+RT-600370,2026-02-12,Central Hub,Urban Dense,1,0.8543,1
+RT-600371,2026-02-13,Coastal Hub,Urban Dense,0,0.1908,0
+RT-600372,2026-02-13,Central Hub,Suburban,0,0.4276,1
+RT-600373,2026-02-13,Coastal Hub,Urban Dense,0,0.0469,0
+RT-600374,2026-02-14,Coastal Hub,Rural,0,0.0091,0
+RT-600375,2026-02-14,North Hub (cold climate),Rural,0,0.236,0
+RT-600376,2026-02-14,South Hub (hot climate),Urban Dense,0,0.0035,0
+RT-600377,2026-02-16,Central Hub,Suburban,0,0.5564,1
+RT-600378,2026-02-16,South Hub (hot climate),Urban Dense,1,0.4484,1
+RT-600379,2026-02-16,Central Hub,Suburban,0,0.5118,1
+RT-600380,2026-02-16,North Hub (cold climate),Urban Dense,1,0.9394,1
+RT-600381,2026-02-16,South Hub (hot climate),Urban Dense,0,0.0688,0
+RT-600382,2026-02-17,South Hub (hot climate),Rural,0,0.1106,0
+RT-600383,2026-02-17,North Hub (cold climate),Urban Dense,0,0.5993,1
+RT-600384,2026-02-17,Central Hub,Urban Dense,0,0.1654,0
+RT-600385,2026-02-17,North Hub (cold climate),Rural,0,0.2226,0
+RT-600386,2026-02-17,South Hub (hot climate),Urban Dense,0,0.0916,0
+RT-600387,2026-02-17,South Hub (hot climate),Rural,0,0.0397,0
+RT-600388,2026-02-17,South Hub (hot climate),Suburban,1,0.8937,1
+RT-600389,2026-02-18,North Hub (cold climate),Suburban,0,0.3999,1
+RT-600390,2026-02-18,North Hub (cold climate),Urban Dense,1,0.9137,1
+RT-600391,2026-02-18,Central Hub,Suburban,1,0.647,1
+RT-600392,2026-02-18,Central Hub,Rural,0,0.0063,0
+RT-600393,2026-02-18,Coastal Hub,Suburban,1,0.7539,1
+RT-600394,2026-02-19,North Hub (cold climate),Urban Dense,1,0.7345,1
+RT-600395,2026-02-19,North Hub (cold climate),Rural,0,0.2266,0
+RT-600396,2026-02-19,South Hub (hot climate),Rural,0,0.0223,0
+RT-600397,2026-02-19,Central Hub,Urban Dense,0,0.0353,0
+RT-600398,2026-02-21,South Hub (hot climate),Urban Dense,1,0.8814,1
+RT-600399,2026-02-23,Central Hub,Urban Dense,0,0.9164,1
+RT-600400,2026-02-23,Coastal Hub,Suburban,0,0.0389,0
+RT-600401,2026-02-23,South Hub (hot climate),Urban Dense,0,0.7231,1
+RT-600402,2026-02-23,North Hub (cold climate),Urban Dense,0,0.9113,1
+RT-600403,2026-02-23,North Hub (cold climate),Rural,0,0.2993,1
+RT-600404,2026-02-23,Coastal Hub,Suburban,0,0.0058,0
+RT-600405,2026-02-24,South Hub (hot climate),Suburban,0,0.6283,1
+RT-600406,2026-02-24,Coastal Hub,Urban Dense,0,0.0325,0
+RT-600407,2026-02-25,Central Hub,Rural,0,0.1761,0
+RT-600408,2026-02-26,North Hub (cold climate),Urban Dense,0,0.5583,1
+RT-600409,2026-02-26,South Hub (hot climate),Rural,0,0.452,1
+RT-600410,2026-02-26,Coastal Hub,Rural,0,0.001,0
+RT-600411,2026-02-26,North Hub (cold climate),Suburban,0,0.357,1
+RT-600412,2026-02-27,South Hub (hot climate),Urban Dense,0,0.3554,1
+RT-600413,2026-02-27,North Hub (cold climate),Urban Dense,1,0.9704,1
+RT-600414,2026-02-27,North Hub (cold climate),Urban Dense,1,0.9799,1
+RT-600415,2026-02-27,South Hub (hot climate),Suburban,0,0.5611,1
+RT-600416,2026-02-27,Coastal Hub,Urban Dense,1,0.8828,1
+RT-600417,2026-02-27,Central Hub,Suburban,1,0.2868,0
+RT-600418,2026-02-27,North Hub (cold climate),Suburban,1,0.236,0
+RT-600419,2026-02-28,South Hub (hot climate),Suburban,0,0.0202,0
+RT-600420,2026-03-03,Central Hub,Suburban,1,0.9353,1
+RT-600421,2026-03-03,Central Hub,Rural,0,0.1694,0
+RT-600422,2026-03-03,South Hub (hot climate),Urban Dense,1,0.3197,1
+RT-600423,2026-03-03,South Hub (hot climate),Urban Dense,0,0.3265,1
+RT-600424,2026-03-04,North Hub (cold climate),Urban Dense,0,0.1976,0
+RT-600425,2026-03-04,Central Hub,Suburban,0,0.1759,0
+RT-600426,2026-03-04,Central Hub,Rural,0,0.1428,0
+RT-600427,2026-03-04,North Hub (cold climate),Rural,1,0.3498,1
+RT-600428,2026-03-05,Central Hub,Urban Dense,1,0.7405,1
+RT-600429,2026-03-05,Central Hub,Suburban,1,0.6984,1
+RT-600430,2026-03-06,Central Hub,Suburban,1,0.5727,1
+RT-600431,2026-03-06,Coastal Hub,Suburban,0,0.0913,0
+RT-600432,2026-03-06,South Hub (hot climate),Urban Dense,0,0.4569,1
+RT-600433,2026-03-06,South Hub (hot climate),Rural,0,0.0791,0
+RT-600434,2026-03-07,South Hub (hot climate),Urban Dense,0,0.5832,1
+RT-600435,2026-03-07,Central Hub,Rural,0,0.1031,0
+RT-600436,2026-03-07,Central Hub,Rural,1,0.6438,1
+RT-600437,2026-03-09,South Hub (hot climate),Suburban,0,0.078,0
+RT-600438,2026-03-09,South Hub (hot climate),Suburban,1,0.7171,1
+RT-600439,2026-03-09,Central Hub,Urban Dense,1,0.9492,1
+RT-600440,2026-03-09,North Hub (cold climate),Urban Dense,1,0.9922,1
+RT-600441,2026-03-11,South Hub (hot climate),Suburban,0,0.0425,0
+RT-600442,2026-03-11,Central Hub,Suburban,0,0.258,0
+RT-600443,2026-03-12,South Hub (hot climate),Urban Dense,0,0.2037,0
+RT-600444,2026-03-12,Coastal Hub,Urban Dense,0,0.6058,1
+RT-600445,2026-03-13,North Hub (cold climate),Rural,0,0.2412,0
+RT-600446,2026-03-14,South Hub (hot climate),Suburban,0,0.0009,0
+RT-600447,2026-03-14,North Hub (cold climate),Urban Dense,0,0.0972,0
+RT-600448,2026-03-14,South Hub (hot climate),Urban Dense,1,0.5436,1
+RT-600449,2026-03-16,North Hub (cold climate),Urban Dense,1,0.454,1
+RT-600450,2026-03-16,North Hub (cold climate),Urban Dense,1,0.9715,1
+RT-600451,2026-03-17,Coastal Hub,Suburban,0,0.0424,0
+RT-600452,2026-03-17,Central Hub,Urban Dense,1,0.999,1
+RT-600453,2026-03-17,South Hub (hot climate),Urban Dense,1,0.8111,1
+RT-600454,2026-03-18,North Hub (cold climate),Urban Dense,1,0.9734,1
+RT-600455,2026-03-18,Central Hub,Suburban,0,0.0762,0
+RT-600456,2026-03-18,Central Hub,Urban Dense,0,0.001,0
+RT-600457,2026-03-19,Central Hub,Suburban,0,0.0601,0
+RT-600458,2026-03-19,Coastal Hub,Rural,0,0.1372,0
+RT-600459,2026-03-19,Coastal Hub,Rural,0,0.028,0
+RT-600460,2026-03-19,South Hub (hot climate),Suburban,0,0.0973,0
+RT-600461,2026-03-20,Central Hub,Rural,1,0.8263,1
+RT-600462,2026-03-20,Central Hub,Rural,1,0.5614,1
+RT-600463,2026-03-23,Central Hub,Suburban,1,0.9026,1
+RT-600464,2026-03-23,South Hub (hot climate),Urban Dense,0,0.0004,0
+RT-600465,2026-03-23,Central Hub,Urban Dense,1,0.9937,1
+RT-600466,2026-03-23,Coastal Hub,Rural,0,0.0566,0
+RT-600467,2026-03-23,South Hub (hot climate),Suburban,1,0.6345,1
+RT-600468,2026-03-24,Central Hub,Rural,1,0.6474,1
+RT-600469,2026-03-24,North Hub (cold climate),Urban Dense,1,0.7739,1
+RT-600470,2026-03-24,Central Hub,Urban Dense,0,0.0143,0
+RT-600471,2026-03-25,North Hub (cold climate),Suburban,1,0.9701,1
+RT-600472,2026-03-25,South Hub (hot climate),Urban Dense,0,0.1662,0
+RT-600473,2026-03-26,South Hub (hot climate),Suburban,0,0.0128,0
+RT-600474,2026-03-26,Central Hub,Urban Dense,1,0.7165,1
+RT-600475,2026-03-26,North Hub (cold climate),Rural,0,0.3082,1
+RT-600476,2026-03-26,North Hub (cold climate),Suburban,0,0.0207,0
+RT-600477,2026-03-27,North Hub (cold climate),Suburban,0,0.0065,0
+RT-600478,2026-03-27,South Hub (hot climate),Suburban,0,0.0221,0
+RT-600479,2026-03-27,Coastal Hub,Rural,0,0.122,0
+RT-600480,2026-03-28,South Hub (hot climate),Urban Dense,0,0.0002,0
+RT-600481,2026-03-28,Central Hub,Suburban,0,0.0894,0
+RT-600482,2026-03-28,Central Hub,Urban Dense,1,0.7778,1
+RT-600483,2026-03-28,North Hub (cold climate),Urban Dense,0,0.3127,1
+RT-600484,2026-03-30,Coastal Hub,Suburban,0,0.027,0
+RT-600485,2026-03-31,Central Hub,Urban Dense,0,0.0017,0
+RT-600486,2026-03-31,Coastal Hub,Rural,0,0.0027,0
+RT-600487,2026-03-31,North Hub (cold climate),Rural,0,0.018,0
+RT-600488,2026-04-01,Coastal Hub,Rural,0,0.0884,0
+RT-600489,2026-04-01,South Hub (hot climate),Suburban,0,0.2294,0
+RT-600490,2026-04-01,Central Hub,Rural,1,0.7446,1
+RT-600491,2026-04-02,Coastal Hub,Urban Dense,1,0.0453,0
+RT-600492,2026-04-03,North Hub (cold climate),Urban Dense,1,0.9878,1
+RT-600493,2026-04-03,North Hub (cold climate),Urban Dense,1,0.992,1
+RT-600494,2026-04-03,North Hub (cold climate),Rural,1,0.5479,1
+RT-600495,2026-04-03,South Hub (hot climate),Suburban,0,0.7135,1
+RT-600496,2026-04-03,North Hub (cold climate),Urban Dense,0,0.7373,1
+RT-600497,2026-04-04,Central Hub,Rural,0,0.1256,0
+RT-600498,2026-04-04,Coastal Hub,Suburban,0,0.0052,0
+RT-600499,2026-04-07,Central Hub,Urban Dense,1,0.6943,1
+RT-600500,2026-04-07,South Hub (hot climate),Urban Dense,0,0.5637,1
+RT-600501,2026-04-07,Central Hub,Urban Dense,0,0.1066,0
+RT-600502,2026-04-07,South Hub (hot climate),Rural,1,0.7981,1
+RT-600503,2026-04-07,South Hub (hot climate),Urban Dense,0,0.3051,1
+RT-600504,2026-04-08,South Hub (hot climate),Rural,0,0.1383,0
+RT-600505,2026-04-08,South Hub (hot climate),Suburban,0,0.1989,0
+RT-600506,2026-04-09,Coastal Hub,Urban Dense,0,0.4028,1
+RT-600507,2026-04-10,Coastal Hub,Urban Dense,0,0.8315,1
+RT-600508,2026-04-10,Central Hub,Urban Dense,0,0.8552,1
+RT-600509,2026-04-11,Coastal Hub,Urban Dense,0,0.3273,1
+RT-600510,2026-04-13,South Hub (hot climate),Urban Dense,1,0.8562,1
+RT-600511,2026-04-13,Coastal Hub,Suburban,0,0.0822,0
+RT-600512,2026-04-13,Central Hub,Suburban,0,0.3823,1
+RT-600513,2026-04-13,Coastal Hub,Urban Dense,0,0.1706,0
+RT-600514,2026-04-13,Central Hub,Urban Dense,1,0.1851,0
+RT-600515,2026-04-14,Coastal Hub,Urban Dense,0,0.2325,0
+RT-600516,2026-04-14,Coastal Hub,Suburban,1,0.187,0
+RT-600517,2026-04-14,North Hub (cold climate),Suburban,0,0.2741,0
+RT-600518,2026-04-14,Central Hub,Suburban,0,0.7745,1
+RT-600519,2026-04-15,Central Hub,Suburban,1,0.6019,1
+RT-600520,2026-04-15,Central Hub,Urban Dense,1,0.5739,1
+RT-600521,2026-04-15,Coastal Hub,Urban Dense,1,0.9504,1
+RT-600522,2026-04-16,Central Hub,Urban Dense,0,0.5328,1
+RT-600523,2026-04-17,Central Hub,Urban Dense,0,0.0701,0
+RT-600524,2026-04-17,North Hub (cold climate),Urban Dense,1,0.9818,1
+RT-600525,2026-04-17,Central Hub,Urban Dense,1,0.5988,1
+RT-600526,2026-04-17,Coastal Hub,Urban Dense,0,0.0002,0
+RT-600527,2026-04-17,Central Hub,Suburban,1,0.9167,1
+RT-600528,2026-04-17,North Hub (cold climate),Rural,1,0.5478,1
+RT-600529,2026-04-17,South Hub (hot climate),Suburban,1,0.484,1
+RT-600530,2026-04-17,North Hub (cold climate),Urban Dense,1,0.9983,1
+RT-600531,2026-04-17,Central Hub,Suburban,0,0.1237,0
+RT-600532,2026-04-17,Central Hub,Urban Dense,1,0.931,1
+RT-600533,2026-04-18,Coastal Hub,Suburban,0,0.0762,0
+RT-600534,2026-04-18,Central Hub,Rural,1,0.3318,1
+RT-600535,2026-04-18,Central Hub,Suburban,0,0.5443,1
+RT-600536,2026-04-18,Central Hub,Suburban,0,0.1566,0
+RT-600537,2026-04-20,North Hub (cold climate),Suburban,1,0.7662,1
+RT-600538,2026-04-20,Coastal Hub,Suburban,0,0.5224,1
+RT-600539,2026-04-20,Coastal Hub,Urban Dense,0,0.4326,1
+RT-600540,2026-04-21,Central Hub,Suburban,0,0.0024,0
+RT-600541,2026-04-21,South Hub (hot climate),Urban Dense,0,0.2387,0
+RT-600542,2026-04-22,Central Hub,Urban Dense,0,0.8139,1
+RT-600543,2026-04-22,South Hub (hot climate),Suburban,0,0.8338,1
+RT-600544,2026-04-23,Central Hub,Suburban,0,0.0959,0
+RT-600545,2026-04-23,North Hub (cold climate),Urban Dense,1,0.9816,1
+RT-600546,2026-04-23,Coastal Hub,Suburban,0,0.0055,0
+RT-600547,2026-04-23,South Hub (hot climate),Urban Dense,0,0.284,0
+RT-600548,2026-04-23,Central Hub,Urban Dense,0,0.4018,1
+RT-600549,2026-04-24,Central Hub,Urban Dense,1,0.9796,1
+RT-600550,2026-04-24,North Hub (cold climate),Urban Dense,1,0.6206,1
+RT-600551,2026-04-25,Central Hub,Suburban,0,0.0029,0
+RT-600552,2026-04-25,Central Hub,Urban Dense,0,0.0005,0
+RT-600553,2026-04-25,Central Hub,Urban Dense,1,0.8023,1
+RT-600554,2026-04-27,Coastal Hub,Rural,0,0.041,0
+RT-600555,2026-04-27,South Hub (hot climate),Suburban,0,0.2355,0
+RT-600556,2026-04-28,South Hub (hot climate),Urban Dense,0,0.0244,0
+RT-600557,2026-04-28,Coastal Hub,Urban Dense,0,0.9183,1
+RT-600558,2026-04-28,Coastal Hub,Rural,0,0.0821,0
+RT-600559,2026-04-29,Coastal Hub,Urban Dense,0,0.2484,0
+RT-600560,2026-04-30,Coastal Hub,Urban Dense,0,0.0808,0
+RT-600561,2026-04-30,Central Hub,Urban Dense,1,0.8529,1
+RT-600562,2026-04-30,Coastal Hub,Urban Dense,0,0.202,0
+RT-600563,2026-05-01,South Hub (hot climate),Rural,0,0.0959,0
+RT-600564,2026-05-01,Central Hub,Suburban,1,0.8279,1
+RT-600565,2026-05-01,Coastal Hub,Urban Dense,1,0.3037,1
+RT-600566,2026-05-01,North Hub (cold climate),Urban Dense,0,0.1144,0
+RT-600567,2026-05-02,North Hub (cold climate),Suburban,1,0.8924,1
+RT-600568,2026-05-02,North Hub (cold climate),Rural,0,0.4116,1
+RT-600569,2026-05-04,Central Hub,Urban Dense,1,0.6809,1
+RT-600570,2026-05-04,Coastal Hub,Rural,0,0.0137,0
+RT-600571,2026-05-05,North Hub (cold climate),Urban Dense,1,0.9126,1
+RT-600572,2026-05-05,North Hub (cold climate),Rural,0,0.204,0
+RT-600573,2026-05-06,North Hub (cold climate),Suburban,0,0.3672,1
+RT-600574,2026-05-07,North Hub (cold climate),Suburban,0,0.1641,0
+RT-600575,2026-05-08,South Hub (hot climate),Suburban,0,0.0003,0
+RT-600576,2026-05-08,South Hub (hot climate),Rural,0,0.3033,1
+RT-600577,2026-05-08,North Hub (cold climate),Rural,1,0.9244,1
+RT-600578,2026-05-08,South Hub (hot climate),Urban Dense,0,0.0928,0
+RT-600579,2026-05-08,South Hub (hot climate),Urban Dense,0,0.4604,1
+RT-600580,2026-05-08,Central Hub,Suburban,1,0.2931,1
+RT-600581,2026-05-09,Coastal Hub,Suburban,1,0.2668,0
+RT-600582,2026-05-09,Central Hub,Urban Dense,0,0.7905,1
+RT-600583,2026-05-09,South Hub (hot climate),Rural,0,0.0009,0
+RT-600584,2026-05-09,Coastal Hub,Rural,0,0.0003,0
+RT-600585,2026-05-09,Coastal Hub,Urban Dense,0,0.0999,0
+RT-600586,2026-05-09,North Hub (cold climate),Urban Dense,1,0.8355,1
+RT-600587,2026-05-09,South Hub (hot climate),Suburban,0,0.0653,0
+RT-600588,2026-05-11,North Hub (cold climate),Suburban,0,0.4983,1
+RT-600589,2026-05-11,Central Hub,Rural,0,0.6294,1
+RT-600590,2026-05-11,Coastal Hub,Rural,0,0.0197,0
+RT-600591,2026-05-11,Central Hub,Suburban,1,0.8352,1
+RT-600592,2026-05-11,North Hub (cold climate),Suburban,0,0.2589,0
+RT-600593,2026-05-12,Central Hub,Rural,0,0.5215,1
+RT-600594,2026-05-12,Coastal Hub,Rural,0,0.0066,0
+RT-600595,2026-05-12,South Hub (hot climate),Rural,1,0.3076,1
+RT-600596,2026-05-12,North Hub (cold climate),Urban Dense,0,0.0092,0
+RT-600597,2026-05-13,Coastal Hub,Urban Dense,0,0.0458,0
+RT-600598,2026-05-13,North Hub (cold climate),Urban Dense,0,0.4296,1
+RT-600599,2026-05-13,North Hub (cold climate),Urban Dense,0,0.2538,0
+RT-600600,2026-05-13,North Hub (cold climate),Suburban,0,0.6346,1
+RT-600601,2026-05-13,Central Hub,Urban Dense,0,0.0034,0
+RT-600602,2026-05-14,Central Hub,Urban Dense,0,0.6122,1
+RT-600603,2026-05-14,North Hub (cold climate),Suburban,1,0.7415,1
+RT-600604,2026-05-14,South Hub (hot climate),Rural,1,0.0971,0
+RT-600605,2026-05-15,Coastal Hub,Suburban,0,0.2316,0
+RT-600606,2026-05-15,South Hub (hot climate),Urban Dense,0,0.8028,1
+RT-600607,2026-05-15,Central Hub,Urban Dense,0,0.0017,0
+RT-600608,2026-05-16,South Hub (hot climate),Suburban,0,0.0415,0
+RT-600609,2026-05-16,Coastal Hub,Suburban,0,0.0683,0
+RT-600610,2026-05-16,South Hub (hot climate),Rural,0,0.1227,0
+RT-600611,2026-05-18,Central Hub,Urban Dense,1,0.9549,1
+RT-600612,2026-05-19,North Hub (cold climate),Rural,0,0.4378,1
+RT-600613,2026-05-20,North Hub (cold climate),Urban Dense,0,0.0067,0
+RT-600614,2026-05-20,South Hub (hot climate),Urban Dense,0,0.0003,0
+RT-600615,2026-05-21,Coastal Hub,Suburban,0,0.0215,0
+RT-600616,2026-05-21,North Hub (cold climate),Urban Dense,1,0.9675,1
+RT-600617,2026-05-21,North Hub (cold climate),Urban Dense,0,0.1549,0
+RT-600618,2026-05-21,Central Hub,Urban Dense,0,0.3176,1
+RT-600619,2026-05-23,Central Hub,Urban Dense,1,0.9535,1
+RT-600620,2026-05-23,South Hub (hot climate),Urban Dense,0,0.6812,1
+RT-600621,2026-05-23,Central Hub,Suburban,0,0.4499,1
+RT-600622,2026-05-23,South Hub (hot climate),Suburban,0,0.077,0
+RT-600623,2026-05-23,Coastal Hub,Suburban,0,0.0894,0
+RT-600624,2026-05-26,Coastal Hub,Rural,0,0.0392,0
+RT-600625,2026-05-26,North Hub (cold climate),Rural,0,0.368,1
+RT-600626,2026-05-26,South Hub (hot climate),Urban Dense,1,0.9917,1
+RT-600627,2026-05-26,Coastal Hub,Rural,0,0.3272,1
+RT-600628,2026-05-27,Coastal Hub,Rural,0,0.0027,0
+RT-600629,2026-05-27,Central Hub,Rural,0,0.1418,0
+RT-600630,2026-05-27,Coastal Hub,Urban Dense,0,0.0,0
+RT-600631,2026-05-27,North Hub (cold climate),Urban Dense,1,0.8838,1
+RT-600632,2026-05-28,Coastal Hub,Suburban,0,0.5533,1
+RT-600633,2026-05-28,South Hub (hot climate),Urban Dense,1,0.8743,1
+RT-600634,2026-05-28,Coastal Hub,Suburban,0,0.4954,1
+RT-600635,2026-05-28,South Hub (hot climate),Suburban,1,0.72,1
+RT-600636,2026-05-30,Coastal Hub,Urban Dense,0,0.0004,0
+RT-600637,2026-05-30,Coastal Hub,Rural,0,0.0248,0
+RT-600638,2026-05-30,Coastal Hub,Suburban,0,0.0067,0
+RT-600639,2026-06-01,South Hub (hot climate),Suburban,0,0.0602,0
+RT-600640,2026-06-01,South Hub (hot climate),Urban Dense,0,0.4453,1
+RT-600641,2026-06-01,North Hub (cold climate),Rural,1,0.8654,1
+RT-600642,2026-06-02,Coastal Hub,Suburban,0,0.0236,0
+RT-600643,2026-06-02,Central Hub,Urban Dense,1,0.8634,1
+RT-600644,2026-06-02,Central Hub,Urban Dense,1,0.9881,1
+RT-600645,2026-06-02,South Hub (hot climate),Rural,0,0.1666,0
+RT-600646,2026-06-02,North Hub (cold climate),Rural,1,0.5551,1
+RT-600647,2026-06-02,Coastal Hub,Rural,0,0.0973,0
+RT-600648,2026-06-02,Central Hub,Urban Dense,1,0.9943,1
+RT-600649,2026-06-03,Central Hub,Urban Dense,0,0.3355,1
+RT-600650,2026-06-04,South Hub (hot climate),Urban Dense,1,0.9917,1
+RT-600651,2026-06-04,Coastal Hub,Suburban,0,0.3886,1
+RT-600652,2026-06-04,North Hub (cold climate),Urban Dense,1,0.8105,1
+RT-600653,2026-06-04,Coastal Hub,Urban Dense,0,0.0132,0
+RT-600654,2026-06-04,South Hub (hot climate),Rural,0,0.4143,1
+RT-600655,2026-06-05,South Hub (hot climate),Rural,1,0.8454,1
+RT-600656,2026-06-05,Central Hub,Urban Dense,0,0.6182,1
+RT-600657,2026-06-06,Central Hub,Rural,0,0.0645,0
+RT-600658,2026-06-06,North Hub (cold climate),Suburban,0,0.8512,1
+RT-600659,2026-06-08,Central Hub,Suburban,0,0.1303,0
+RT-600660,2026-06-08,North Hub (cold climate),Suburban,0,0.7654,1
+RT-600661,2026-06-08,Coastal Hub,Rural,0,0.0699,0
+RT-600662,2026-06-08,Coastal Hub,Urban Dense,0,0.7774,1
+RT-600663,2026-06-08,Central Hub,Suburban,0,0.3358,1
+RT-600664,2026-06-09,Coastal Hub,Urban Dense,0,0.2847,0
+RT-600665,2026-06-09,North Hub (cold climate),Suburban,1,0.9535,1
+RT-600666,2026-06-09,North Hub (cold climate),Urban Dense,1,0.9612,1
+RT-600667,2026-06-10,North Hub (cold climate),Suburban,0,0.14,0
+RT-600668,2026-06-10,Central Hub,Rural,0,0.0158,0
+RT-600669,2026-06-10,North Hub (cold climate),Suburban,1,0.6882,1
+RT-600670,2026-06-10,North Hub (cold climate),Urban Dense,1,0.8395,1
+RT-600671,2026-06-11,South Hub (hot climate),Urban Dense,1,0.7828,1
+RT-600672,2026-06-12,North Hub (cold climate),Suburban,0,0.4551,1
+RT-600673,2026-06-12,North Hub (cold climate),Urban Dense,0,0.7065,1
+RT-600674,2026-06-13,South Hub (hot climate),Urban Dense,0,0.4808,1
+RT-600675,2026-06-13,Coastal Hub,Urban Dense,1,0.8045,1
+RT-600676,2026-06-13,Central Hub,Urban Dense,1,0.9786,1
+RT-600677,2026-06-13,South Hub (hot climate),Suburban,1,0.7698,1
+RT-600678,2026-06-13,Central Hub,Urban Dense,1,0.8922,1
+RT-600679,2026-06-13,South Hub (hot climate),Rural,0,0.1922,0
+RT-600680,2026-06-13,Central Hub,Suburban,0,0.5777,1
+RT-600681,2026-06-13,Central Hub,Urban Dense,1,0.6187,1
+RT-600682,2026-06-13,South Hub (hot climate),Suburban,0,0.2178,0
+RT-600683,2026-06-13,North Hub (cold climate),Suburban,0,0.2379,0
+RT-600684,2026-06-15,Central Hub,Urban Dense,1,0.5633,1
+RT-600685,2026-06-15,Coastal Hub,Urban Dense,0,0.1883,0
+RT-600686,2026-06-15,South Hub (hot climate),Suburban,1,0.885,1
+RT-600687,2026-06-16,Coastal Hub,Suburban,0,0.0768,0
+RT-600688,2026-06-16,Central Hub,Urban Dense,1,0.8927,1
+RT-600689,2026-06-18,South Hub (hot climate),Suburban,0,0.0722,0
+RT-600690,2026-06-18,South Hub (hot climate),Urban Dense,0,0.3066,1
+RT-600691,2026-06-18,South Hub (hot climate),Urban Dense,0,0.0629,0
+RT-600692,2026-06-18,North Hub (cold climate),Urban Dense,0,0.6726,1
+RT-600693,2026-06-18,Central Hub,Rural,0,0.3394,1
+RT-600694,2026-06-18,North Hub (cold climate),Urban Dense,1,0.914,1
+RT-600695,2026-06-19,South Hub (hot climate),Urban Dense,0,0.3231,1
+RT-600696,2026-06-19,Coastal Hub,Urban Dense,0,0.1313,0
+RT-600697,2026-06-20,South Hub (hot climate),Urban Dense,0,0.8607,1
+RT-600698,2026-06-20,Coastal Hub,Suburban,0,0.3195,1
+RT-600699,2026-06-22,Central Hub,Urban Dense,1,0.9844,1
+RT-600700,2026-06-22,Coastal Hub,Urban Dense,0,0.7089,1
+RT-600701,2026-06-22,North Hub (cold climate),Suburban,0,0.1509,0
+RT-600702,2026-06-22,North Hub (cold climate),Urban Dense,1,0.7292,1
+RT-600703,2026-06-22,North Hub (cold climate),Urban Dense,0,0.0035,0
+RT-600704,2026-06-22,Coastal Hub,Urban Dense,0,0.9291,1
+RT-600705,2026-06-23,Central Hub,Urban Dense,1,0.9958,1
+RT-600706,2026-06-23,Central Hub,Suburban,1,0.5922,1
+RT-600707,2026-06-23,North Hub (cold climate),Urban Dense,0,0.0808,0
+RT-600708,2026-06-23,North Hub (cold climate),Urban Dense,0,0.551,1
+RT-600709,2026-06-24,North Hub (cold climate),Suburban,0,0.0327,0
+RT-600710,2026-06-24,Central Hub,Urban Dense,1,0.6734,1
+RT-600711,2026-06-25,North Hub (cold climate),Urban Dense,0,0.5802,1
+RT-600712,2026-06-25,North Hub (cold climate),Urban Dense,0,0.0088,0
+RT-600713,2026-06-25,Coastal Hub,Urban Dense,0,0.224,0
+RT-600714,2026-06-25,Coastal Hub,Suburban,1,0.5339,1
+RT-600715,2026-06-26,North Hub (cold climate),Urban Dense,0,0.7889,1
+RT-600716,2026-06-26,South Hub (hot climate),Suburban,0,0.5601,1
+RT-600717,2026-06-26,South Hub (hot climate),Rural,0,0.8273,1
+RT-600718,2026-06-26,South Hub (hot climate),Suburban,0,0.0076,0
+RT-600719,2026-06-26,North Hub (cold climate),Urban Dense,0,0.1619,0
+RT-600720,2026-06-26,Central Hub,Rural,0,0.0159,0
+RT-600721,2026-06-26,South Hub (hot climate),Urban Dense,1,0.9739,1
+RT-600722,2026-06-27,Coastal Hub,Urban Dense,0,0.2492,0
+RT-600723,2026-06-27,North Hub (cold climate),Urban Dense,1,0.8563,1
+RT-600724,2026-06-27,Central Hub,Urban Dense,0,0.6121,1
+RT-600725,2026-06-27,Central Hub,Urban Dense,1,0.6456,1
+RT-600726,2026-06-27,South Hub (hot climate),Urban Dense,1,0.2408,0
+RT-600727,2026-06-27,North Hub (cold climate),Urban Dense,1,0.0577,0
+RT-600728,2026-06-29,Coastal Hub,Suburban,0,0.6496,1
+RT-600729,2026-06-29,North Hub (cold climate),Suburban,0,0.0115,0
+RT-600730,2026-06-29,Coastal Hub,Urban Dense,0,0.0991,0
+RT-600731,2026-06-29,North Hub (cold climate),Rural,1,0.7409,1
+RT-600732,2026-06-30,Central Hub,Urban Dense,1,0.9824,1
+RT-600733,2026-07-01,Coastal Hub,Urban Dense,0,0.0131,0
+RT-600734,2026-07-02,Central Hub,Suburban,0,0.2875,0
+RT-600735,2026-07-02,Central Hub,Rural,0,0.3026,1
+RT-600736,2026-07-02,South Hub (hot climate),Urban Dense,0,0.0,0
+RT-600737,2026-07-02,South Hub (hot climate),Urban Dense,1,0.2952,1
+RT-600738,2026-07-03,Coastal Hub,Suburban,0,0.1875,0
+RT-600739,2026-07-03,North Hub (cold climate),Urban Dense,0,0.4292,1
+RT-600740,2026-07-03,South Hub (hot climate),Suburban,0,0.006,0
+RT-600741,2026-07-03,North Hub (cold climate),Rural,1,0.5017,1
+RT-600742,2026-07-03,Coastal Hub,Suburban,0,0.0232,0
+RT-600743,2026-07-04,South Hub (hot climate),Suburban,0,0.3065,1
+RT-600744,2026-07-04,South Hub (hot climate),Urban Dense,1,0.5937,1
+RT-600745,2026-07-06,South Hub (hot climate),Suburban,1,0.603,1
+RT-600746,2026-07-06,North Hub (cold climate),Urban Dense,0,0.6313,1
+RT-600747,2026-07-06,Central Hub,Urban Dense,0,0.889,1
+RT-600748,2026-07-06,North Hub (cold climate),Suburban,0,0.2631,0
+RT-600749,2026-07-07,North Hub (cold climate),Urban Dense,0,0.4522,1
+RT-600750,2026-07-07,Coastal Hub,Suburban,0,0.1965,0
+RT-600751,2026-07-08,Coastal Hub,Suburban,0,0.0214,0
+RT-600752,2026-07-08,Coastal Hub,Suburban,0,0.0862,0
+RT-600753,2026-07-08,Coastal Hub,Urban Dense,0,0.0089,0
+RT-600754,2026-07-09,South Hub (hot climate),Urban Dense,0,0.3881,1
+RT-600755,2026-07-09,Central Hub,Urban Dense,0,0.6986,1
+RT-600756,2026-07-09,South Hub (hot climate),Suburban,0,0.0151,0
+RT-600757,2026-07-10,Coastal Hub,Urban Dense,0,0.7213,1
+RT-600758,2026-07-10,South Hub (hot climate),Urban Dense,1,0.8444,1
+RT-600759,2026-07-10,Coastal Hub,Rural,0,0.0518,0
+RT-600760,2026-07-10,Coastal Hub,Suburban,0,0.007,0
+RT-600761,2026-07-10,North Hub (cold climate),Suburban,1,0.777,1
+RT-600762,2026-07-10,Central Hub,Urban Dense,0,0.7783,1
+RT-600763,2026-07-10,North Hub (cold climate),Suburban,0,0.2319,0
+RT-600764,2026-07-11,South Hub (hot climate),Rural,0,0.0116,0
+RT-600765,2026-07-11,Central Hub,Rural,0,0.1643,0
+RT-600766,2026-07-11,North Hub (cold climate),Suburban,0,0.0612,0
+RT-600767,2026-07-11,Coastal Hub,Suburban,0,0.059,0
+RT-600768,2026-07-11,Coastal Hub,Urban Dense,1,0.3062,1
+RT-600769,2026-07-11,Coastal Hub,Urban Dense,1,0.0578,0
+RT-600770,2026-07-11,Central Hub,Urban Dense,1,0.9936,1
+RT-600771,2026-07-11,Coastal Hub,Suburban,0,0.0425,0
+RT-600772,2026-07-11,South Hub (hot climate),Rural,1,0.1552,0
+RT-600773,2026-07-14,South Hub (hot climate),Suburban,0,0.0002,0
+RT-600774,2026-07-14,Central Hub,Suburban,0,0.5355,1
+RT-600775,2026-07-14,Central Hub,Suburban,0,0.666,1
+RT-600776,2026-07-15,South Hub (hot climate),Rural,0,0.0426,0
+RT-600777,2026-07-15,South Hub (hot climate),Suburban,0,0.087,0
+RT-600778,2026-07-16,Coastal Hub,Suburban,0,0.0141,0
+RT-600779,2026-07-16,North Hub (cold climate),Urban Dense,1,0.9838,1
+RT-600780,2026-07-16,South Hub (hot climate),Urban Dense,1,0.9594,1
+RT-600781,2026-07-16,Coastal Hub,Urban Dense,1,0.3035,1
+RT-600782,2026-07-16,North Hub (cold climate),Suburban,0,0.7145,1
+RT-600783,2026-07-16,South Hub (hot climate),Urban Dense,0,0.0472,0
+RT-600784,2026-07-17,Coastal Hub,Urban Dense,0,0.4139,1
+RT-600785,2026-07-17,North Hub (cold climate),Suburban,0,0.6162,1
+RT-600786,2026-07-17,Coastal Hub,Rural,0,0.4677,1
+RT-600787,2026-07-17,South Hub (hot climate),Rural,0,0.428,1
+RT-600788,2026-07-17,Central Hub,Suburban,0,0.1684,0
+RT-600789,2026-07-17,South Hub (hot climate),Suburban,0,0.2016,0
+RT-600790,2026-07-18,North Hub (cold climate),Urban Dense,1,0.9734,1
+RT-600791,2026-07-18,Central Hub,Urban Dense,1,0.7594,1
+RT-600792,2026-07-18,North Hub (cold climate),Suburban,0,0.4322,1
+RT-600793,2026-07-18,Central Hub,Urban Dense,0,0.4011,1
+RT-600794,2026-07-18,Coastal Hub,Suburban,0,0.0079,0
+RT-600795,2026-07-20,Coastal Hub,Suburban,0,0.0347,0
+RT-600796,2026-07-20,North Hub (cold climate),Urban Dense,1,0.8407,1
+RT-600797,2026-07-21,Coastal Hub,Suburban,1,0.0921,0
+RT-600798,2026-07-22,North Hub (cold climate),Suburban,0,0.0023,0
+RT-600799,2026-07-22,Central Hub,Rural,0,0.45,1
+RT-600800,2026-07-23,Coastal Hub,Suburban,0,0.0009,0
+RT-600801,2026-07-23,South Hub (hot climate),Urban Dense,0,0.5018,1
+RT-600802,2026-07-23,Central Hub,Rural,1,0.5575,1
+RT-600803,2026-07-24,North Hub (cold climate),Rural,0,0.2636,0
+RT-600804,2026-07-25,Coastal Hub,Urban Dense,0,0.0262,0
+RT-600805,2026-07-27,South Hub (hot climate),Rural,0,0.3967,1
+RT-600806,2026-07-28,Coastal Hub,Suburban,0,0.4784,1
+RT-600807,2026-07-28,North Hub (cold climate),Urban Dense,0,0.1835,0
+RT-600808,2026-07-29,South Hub (hot climate),Urban Dense,1,0.8993,1
+RT-600809,2026-07-29,South Hub (hot climate),Rural,0,0.2461,0
+RT-600810,2026-07-29,North Hub (cold climate),Suburban,0,0.7482,1
+RT-600811,2026-07-30,South Hub (hot climate),Urban Dense,0,0.3107,1
+RT-600812,2026-07-30,Central Hub,Urban Dense,0,0.0008,0
+RT-600813,2026-07-30,Central Hub,Urban Dense,1,0.2197,0
+RT-600814,2026-07-31,Central Hub,Suburban,1,0.4553,1
+RT-600815,2026-07-31,North Hub (cold climate),Suburban,1,0.8642,1
+RT-600816,2026-07-31,Central Hub,Urban Dense,1,0.7584,1
+RT-600817,2026-08-01,South Hub (hot climate),Suburban,0,0.1711,0
+RT-600818,2026-08-01,South Hub (hot climate),Suburban,0,0.0891,0
+RT-600819,2026-08-01,Coastal Hub,Suburban,0,0.0325,0
+RT-600820,2026-08-04,North Hub (cold climate),Urban Dense,1,0.9934,1
+RT-600821,2026-08-04,Coastal Hub,Suburban,0,0.1369,0
+RT-600822,2026-08-05,South Hub (hot climate),Rural,0,0.0484,0
+RT-600823,2026-08-05,Central Hub,Suburban,0,0.8444,1
+RT-600824,2026-08-05,Central Hub,Suburban,0,0.3985,1
+RT-600825,2026-08-05,Coastal Hub,Rural,0,0.1636,0
+RT-600826,2026-08-05,Coastal Hub,Urban Dense,0,0.074,0
+RT-600827,2026-08-05,Coastal Hub,Urban Dense,0,0.0005,0
+RT-600828,2026-08-06,North Hub (cold climate),Suburban,0,0.8113,1
+RT-600829,2026-08-06,South Hub (hot climate),Suburban,0,0.1356,0
+RT-600830,2026-08-07,Central Hub,Suburban,1,0.7902,1
+RT-600831,2026-08-07,Coastal Hub,Urban Dense,0,0.0467,0
+RT-600832,2026-08-08,North Hub (cold climate),Suburban,0,0.0854,0
+RT-600833,2026-08-08,Coastal Hub,Suburban,0,0.2338,0
+RT-600834,2026-08-08,Central Hub,Urban Dense,1,0.9908,1
+RT-600835,2026-08-11,Central Hub,Urban Dense,1,0.6828,1
+RT-600836,2026-08-11,Coastal Hub,Urban Dense,0,0.2205,0
+RT-600837,2026-08-11,South Hub (hot climate),Suburban,0,0.0558,0
+RT-600838,2026-08-11,North Hub (cold climate),Rural,1,0.7922,1
+RT-600839,2026-08-11,North Hub (cold climate),Urban Dense,1,0.9946,1
+RT-600840,2026-08-12,North Hub (cold climate),Suburban,1,0.5575,1
+RT-600841,2026-08-12,Coastal Hub,Suburban,0,0.0324,0
+RT-600842,2026-08-12,Central Hub,Suburban,0,0.5684,1
+RT-600843,2026-08-13,North Hub (cold climate),Urban Dense,1,0.7553,1
+RT-600844,2026-08-13,South Hub (hot climate),Urban Dense,1,0.9617,1
+RT-600845,2026-08-13,Central Hub,Urban Dense,1,0.9123,1
+RT-600846,2026-08-13,Coastal Hub,Urban Dense,0,0.0125,0
+RT-600847,2026-08-14,North Hub (cold climate),Suburban,1,0.9241,1
+RT-600848,2026-08-14,North Hub (cold climate),Urban Dense,0,0.5255,1
+RT-600849,2026-08-14,South Hub (hot climate),Suburban,0,0.5978,1
+RT-600850,2026-08-14,Central Hub,Suburban,0,0.0681,0
+RT-600851,2026-08-14,North Hub (cold climate),Suburban,0,0.0025,0
+RT-600852,2026-08-15,North Hub (cold climate),Suburban,0,0.0027,0
+RT-600853,2026-08-15,Coastal Hub,Urban Dense,0,0.1342,0
+RT-600854,2026-08-15,North Hub (cold climate),Rural,1,0.8063,1
+RT-600855,2026-08-15,South Hub (hot climate),Suburban,0,0.0006,0
+RT-600856,2026-08-17,North Hub (cold climate),Rural,0,0.3722,1
+RT-600857,2026-08-17,Coastal Hub,Rural,0,0.1731,0
+RT-600858,2026-08-17,South Hub (hot climate),Urban Dense,0,0.3262,1
+RT-600859,2026-08-17,Coastal Hub,Suburban,0,0.208,0
+RT-600860,2026-08-17,Central Hub,Rural,0,0.4098,1
+RT-600861,2026-08-17,South Hub (hot climate),Suburban,0,0.0028,0
+RT-600862,2026-08-18,Central Hub,Suburban,0,0.7764,1
+RT-600863,2026-08-18,Central Hub,Suburban,1,0.934,1
+RT-600864,2026-08-19,North Hub (cold climate),Urban Dense,0,0.2228,0
+RT-600865,2026-08-19,Central Hub,Rural,0,0.3902,1
+RT-600866,2026-08-19,North Hub (cold climate),Suburban,0,0.0202,0
+RT-600867,2026-08-19,South Hub (hot climate),Urban Dense,1,0.715,1
+RT-600868,2026-08-19,Coastal Hub,Urban Dense,1,0.8168,1
+RT-600869,2026-08-19,North Hub (cold climate),Suburban,1,0.701,1
+RT-600870,2026-08-19,South Hub (hot climate),Urban Dense,1,0.9417,1
+RT-600871,2026-08-19,North Hub (cold climate),Suburban,1,0.7178,1
+RT-600872,2026-08-20,North Hub (cold climate),Suburban,0,0.3731,1
+RT-600873,2026-08-20,Central Hub,Urban Dense,1,0.978,1
+RT-600874,2026-08-21,Coastal Hub,Rural,0,0.0421,0
+RT-600875,2026-08-21,South Hub (hot climate),Urban Dense,0,0.0891,0
+RT-600876,2026-08-21,North Hub (cold climate),Urban Dense,0,0.0001,0
+RT-600877,2026-08-21,Central Hub,Suburban,0,0.0744,0
+RT-600878,2026-08-21,South Hub (hot climate),Suburban,0,0.1535,0
+RT-600879,2026-08-22,North Hub (cold climate),Suburban,0,0.4325,1
+RT-600880,2026-08-22,Coastal Hub,Suburban,0,0.0326,0
+RT-600881,2026-08-22,South Hub (hot climate),Rural,1,0.7995,1
+RT-600882,2026-08-22,North Hub (cold climate),Urban Dense,1,0.8384,1
+RT-600883,2026-08-22,Coastal Hub,Rural,0,0.0232,0
+RT-600884,2026-08-22,Central Hub,Urban Dense,0,0.107,0
+RT-600885,2026-08-22,Central Hub,Suburban,0,0.3988,1
+RT-600886,2026-08-24,Central Hub,Urban Dense,1,0.9177,1
+RT-600887,2026-08-24,North Hub (cold climate),Suburban,1,0.5593,1
+RT-600888,2026-08-24,North Hub (cold climate),Urban Dense,1,0.9156,1
+RT-600889,2026-08-26,Central Hub,Rural,0,0.2174,0
+RT-600890,2026-08-26,Central Hub,Suburban,0,0.2788,0
+RT-600891,2026-08-27,Coastal Hub,Suburban,0,0.0404,0
+RT-600892,2026-08-28,South Hub (hot climate),Rural,0,0.1352,0
+RT-600893,2026-08-28,North Hub (cold climate),Urban Dense,1,0.9962,1
+RT-600894,2026-08-28,Central Hub,Rural,0,0.4425,1
+RT-600895,2026-08-28,Coastal Hub,Urban Dense,0,0.1729,0
+RT-600896,2026-08-28,North Hub (cold climate),Urban Dense,0,0.7167,1
+RT-600897,2026-08-29,North Hub (cold climate),Suburban,1,0.7079,1
+RT-600898,2026-08-29,Coastal Hub,Rural,0,0.077,0
+RT-600899,2026-08-29,Central Hub,Rural,0,0.3271,1
+RT-600900,2026-08-29,South Hub (hot climate),Suburban,0,0.0444,0
+RT-600901,2026-08-29,North Hub (cold climate),Suburban,0,0.0317,0
+RT-600902,2026-08-29,North Hub (cold climate),Rural,0,0.2538,0
+RT-600903,2026-08-31,Coastal Hub,Suburban,1,0.4473,1
+RT-600904,2026-08-31,South Hub (hot climate),Suburban,1,0.1126,0
+RT-600905,2026-09-01,South Hub (hot climate),Rural,0,0.0662,0
+RT-600906,2026-09-01,South Hub (hot climate),Suburban,0,0.027,0
+RT-600907,2026-09-01,Coastal Hub,Urban Dense,1,0.6378,1
+RT-600908,2026-09-01,North Hub (cold climate),Suburban,0,0.4919,1
+RT-600909,2026-09-01,North Hub (cold climate),Suburban,0,0.2528,0
+RT-600910,2026-09-02,South Hub (hot climate),Urban Dense,1,0.9597,1
+RT-600911,2026-09-02,South Hub (hot climate),Rural,0,0.1199,0
+RT-600912,2026-09-03,Coastal Hub,Suburban,0,0.1482,0
+RT-600913,2026-09-03,Central Hub,Suburban,1,0.9342,1
+RT-600914,2026-09-03,Central Hub,Suburban,0,0.6,1
+RT-600915,2026-09-03,North Hub (cold climate),Rural,1,0.7517,1
+RT-600916,2026-09-04,South Hub (hot climate),Suburban,0,0.1969,0
+RT-600917,2026-09-05,North Hub (cold climate),Suburban,0,0.0019,0
+RT-600918,2026-09-05,Coastal Hub,Suburban,0,0.0054,0
+RT-600919,2026-09-07,North Hub (cold climate),Suburban,0,0.4422,1
+RT-600920,2026-09-07,Coastal Hub,Urban Dense,0,0.2965,1
+RT-600921,2026-09-07,North Hub (cold climate),Suburban,1,0.5052,1
+RT-600922,2026-09-07,Central Hub,Urban Dense,0,0.8432,1
+RT-600923,2026-09-07,Coastal Hub,Rural,0,0.029,0
+RT-600924,2026-09-07,Central Hub,Rural,0,0.2484,0
+RT-600925,2026-09-07,Coastal Hub,Urban Dense,0,0.7165,1
+RT-600926,2026-09-08,South Hub (hot climate),Urban Dense,0,0.1929,0
+RT-600927,2026-09-09,South Hub (hot climate),Suburban,0,0.0578,0
+RT-600928,2026-09-09,South Hub (hot climate),Suburban,0,0.0522,0
+RT-600929,2026-09-09,South Hub (hot climate),Urban Dense,1,0.7471,1
+RT-600930,2026-09-09,Central Hub,Suburban,1,0.9776,1
+RT-600931,2026-09-10,Central Hub,Urban Dense,1,0.8548,1
+RT-600932,2026-09-10,North Hub (cold climate),Urban Dense,1,0.999,1
+RT-600933,2026-09-10,North Hub (cold climate),Urban Dense,1,0.7041,1
+RT-600934,2026-09-10,North Hub (cold climate),Urban Dense,1,0.7847,1
+RT-600935,2026-09-11,North Hub (cold climate),Suburban,1,0.8569,1
+RT-600936,2026-09-11,North Hub (cold climate),Suburban,1,0.8857,1
+RT-600937,2026-09-11,South Hub (hot climate),Suburban,0,0.233,0
+RT-600938,2026-09-12,South Hub (hot climate),Urban Dense,0,0.087,0
+RT-600939,2026-09-12,Coastal Hub,Rural,0,0.077,0
+RT-600940,2026-09-12,Coastal Hub,Rural,0,0.0004,0
+RT-600941,2026-09-12,Coastal Hub,Suburban,0,0.0553,0
+RT-600942,2026-09-12,South Hub (hot climate),Rural,0,0.092,0
+RT-600943,2026-09-12,Coastal Hub,Urban Dense,0,0.0776,0
+RT-600944,2026-09-12,Central Hub,Suburban,0,0.5558,1
+RT-600945,2026-09-14,Central Hub,Urban Dense,1,0.9508,1
+RT-600946,2026-09-15,South Hub (hot climate),Urban Dense,0,0.4342,1
+RT-600947,2026-09-15,South Hub (hot climate),Rural,0,0.063,0
+RT-600948,2026-09-15,Central Hub,Suburban,0,0.1327,0
+RT-600949,2026-09-16,Central Hub,Suburban,0,0.545,1
+RT-600950,2026-09-16,Coastal Hub,Urban Dense,1,0.2826,0
+RT-600951,2026-09-16,South Hub (hot climate),Suburban,0,0.4851,1
+RT-600952,2026-09-16,Coastal Hub,Urban Dense,0,0.0237,0
+RT-600953,2026-09-16,Coastal Hub,Urban Dense,0,0.1761,0
+RT-600954,2026-09-17,Central Hub,Urban Dense,1,0.7193,1
+RT-600955,2026-09-17,South Hub (hot climate),Suburban,0,0.0159,0
+RT-600956,2026-09-17,Coastal Hub,Suburban,0,0.1441,0
+RT-600957,2026-09-17,Central Hub,Urban Dense,0,0.8717,1
+RT-600958,2026-09-17,Coastal Hub,Rural,0,0.157,0
+RT-600959,2026-09-18,Central Hub,Rural,0,0.0081,0
+RT-600960,2026-09-18,North Hub (cold climate),Suburban,1,0.6764,1
+RT-600961,2026-09-18,South Hub (hot climate),Urban Dense,1,0.9568,1
+RT-600962,2026-09-18,South Hub (hot climate),Suburban,0,0.3233,1
+RT-600963,2026-09-18,South Hub (hot climate),Suburban,0,0.0014,0
+RT-600964,2026-09-19,South Hub (hot climate),Rural,0,0.1115,0
+RT-600965,2026-09-19,North Hub (cold climate),Urban Dense,1,0.9611,1
+RT-600966,2026-09-21,Central Hub,Suburban,0,0.0986,0
+RT-600967,2026-09-21,Central Hub,Urban Dense,1,0.795,1
+RT-600968,2026-09-21,South Hub (hot climate),Rural,0,0.2175,0
+RT-600969,2026-09-21,Central Hub,Urban Dense,0,0.1423,0
+RT-600970,2026-09-21,North Hub (cold climate),Suburban,1,0.6015,1
+RT-600971,2026-09-21,North Hub (cold climate),Urban Dense,1,0.5922,1
+RT-600972,2026-09-21,Central Hub,Suburban,0,0.3998,1
+RT-600973,2026-09-22,North Hub (cold climate),Suburban,0,0.5678,1
+RT-600974,2026-09-22,South Hub (hot climate),Rural,0,0.2917,1
+RT-600975,2026-09-22,South Hub (hot climate),Urban Dense,1,0.9713,1
+RT-600976,2026-09-22,South Hub (hot climate),Urban Dense,0,0.0001,0
+RT-600977,2026-09-23,Coastal Hub,Urban Dense,0,0.0008,0
+RT-600978,2026-09-23,North Hub (cold climate),Rural,1,0.6297,1
+RT-600979,2026-09-24,Central Hub,Suburban,0,0.1637,0
+RT-600980,2026-09-25,South Hub (hot climate),Rural,0,0.1962,0
+RT-600981,2026-09-25,Central Hub,Urban Dense,0,0.0616,0
+RT-600982,2026-09-25,Coastal Hub,Urban Dense,0,0.009,0
+RT-600983,2026-09-25,South Hub (hot climate),Suburban,0,0.1666,0
+RT-600984,2026-09-25,South Hub (hot climate),Urban Dense,1,0.8279,1
+RT-600985,2026-09-25,North Hub (cold climate),Suburban,1,0.2266,0
+RT-600986,2026-09-26,Central Hub,Urban Dense,0,0.9719,1
+RT-600987,2026-09-26,Coastal Hub,Suburban,0,0.0005,0
+RT-600988,2026-09-26,North Hub (cold climate),Urban Dense,1,0.8915,1
+RT-600989,2026-09-26,North Hub (cold climate),Urban Dense,1,0.7875,1
+RT-600990,2026-09-28,South Hub (hot climate),Suburban,1,0.692,1
+RT-600991,2026-09-28,North Hub (cold climate),Rural,1,0.3226,1
+RT-600992,2026-09-28,Coastal Hub,Suburban,0,0.0258,0
+RT-600993,2026-09-28,South Hub (hot climate),Urban Dense,1,0.3773,1
+RT-600994,2026-09-28,South Hub (hot climate),Urban Dense,0,0.0693,0
+RT-600995,2026-09-28,Coastal Hub,Suburban,0,0.5796,1
+RT-600996,2026-09-28,Central Hub,Urban Dense,1,0.5125,1
+RT-600997,2026-09-29,South Hub (hot climate),Urban Dense,1,0.7871,1
+RT-600998,2026-09-29,North Hub (cold climate),Urban Dense,1,0.8629,1
+RT-600999,2026-09-29,Central Hub,Suburban,0,0.6325,1
+RT-601000,2026-09-30,North Hub (cold climate),Rural,0,0.4527,1

@@ -1,0 +1,207 @@
+{
+  "scenario": "rate_change",
+  "description": "Profit if revenue per parcel changes by X% under a volume elasticity",
+  "variable": "price_change_pct",
+  "assumptions": [
+    "Hub sorting and redelivery costs scale with volume; all other costs fixed in the short run",
+    "Elasticity of 0 means no volume loss"
+  ],
+  "baseline": {
+    "revenue": 603739.23,
+    "cost": 557685.15,
+    "profit": 46054.08,
+    "margin_pct": 7.6281,
+    "routes": 1000
+  },
+  "results": [
+    {
+      "price_change_pct": -5,
+      "elasticity": 0.0,
+      "volume_factor": 1.0,
+      "new_revenue": 573552.27,
+      "new_profit": 15867.12,
+      "profit_change": -30186.96,
+      "new_margin_pct": 2.77
+    },
+    {
+      "price_change_pct": -2.5,
+      "elasticity": 0.0,
+      "volume_factor": 1.0,
+      "new_revenue": 588645.75,
+      "new_profit": 30960.6,
+      "profit_change": -15093.48,
+      "new_margin_pct": 5.26
+    },
+    {
+      "price_change_pct": 0,
+      "elasticity": 0.0,
+      "volume_factor": 1.0,
+      "new_revenue": 603739.23,
+      "new_profit": 46054.08,
+      "profit_change": 0.0,
+      "new_margin_pct": 7.63
+    },
+    {
+      "price_change_pct": 2.5,
+      "elasticity": 0.0,
+      "volume_factor": 1.0,
+      "new_revenue": 618832.71,
+      "new_profit": 61147.56,
+      "profit_change": 15093.48,
+      "new_margin_pct": 9.88
+    },
+    {
+      "price_change_pct": 5,
+      "elasticity": 0.0,
+      "volume_factor": 1.0,
+      "new_revenue": 633926.19,
+      "new_profit": 76241.04,
+      "profit_change": 30186.96,
+      "new_margin_pct": 12.03
+    },
+    {
+      "price_change_pct": 7.5,
+      "elasticity": 0.0,
+      "volume_factor": 1.0,
+      "new_revenue": 649019.67,
+      "new_profit": 91334.52,
+      "profit_change": 45280.44,
+      "new_margin_pct": 14.07
+    },
+    {
+      "price_change_pct": 10,
+      "elasticity": 0.0,
+      "volume_factor": 1.0,
+      "new_revenue": 664113.15,
+      "new_profit": 106428.0,
+      "profit_change": 60373.92,
+      "new_margin_pct": 16.03
+    },
+    {
+      "price_change_pct": -5,
+      "elasticity": -0.5,
+      "volume_factor": 1.025,
+      "new_revenue": 587891.08,
+      "new_profit": 28094.9,
+      "profit_change": -17959.18,
+      "new_margin_pct": 4.78
+    },
+    {
+      "price_change_pct": -2.5,
+      "elasticity": -0.5,
+      "volume_factor": 1.0125,
+      "new_revenue": 596003.82,
+      "new_profit": 37263.16,
+      "profit_change": -8790.92,
+      "new_margin_pct": 6.25
+    },
+    {
+      "price_change_pct": 0,
+      "elasticity": -0.5,
+      "volume_factor": 1.0,
+      "new_revenue": 603739.23,
+      "new_profit": 46054.08,
+      "profit_change": 0.0,
+      "new_margin_pct": 7.63
+    },
+    {
+      "price_change_pct": 2.5,
+      "elasticity": -0.5,
+      "volume_factor": 0.9875,
+      "new_revenue": 611097.3,
+      "new_profit": 54467.66,
+      "profit_change": 8413.58,
+      "new_margin_pct": 8.91
+    },
+    {
+      "price_change_pct": 5,
+      "elasticity": -0.5,
+      "volume_factor": 0.975,
+      "new_revenue": 618078.04,
+      "new_profit": 62503.91,
+      "profit_change": 16449.83,
+      "new_margin_pct": 10.11
+    },
+    {
+      "price_change_pct": 7.5,
+      "elasticity": -0.5,
+      "volume_factor": 0.9625,
+      "new_revenue": 624681.43,
+      "new_profit": 70162.82,
+      "profit_change": 24108.74,
+      "new_margin_pct": 11.23
+    },
+    {
+      "price_change_pct": 10,
+      "elasticity": -0.5,
+      "volume_factor": 0.95,
+      "new_revenue": 630907.5,
+      "new_profit": 77444.4,
+      "profit_change": 31390.32,
+      "new_margin_pct": 12.28
+    },
+    {
+      "price_change_pct": -5,
+      "elasticity": -1.0,
+      "volume_factor": 1.05,
+      "new_revenue": 602229.88,
+      "new_profit": 40322.68,
+      "profit_change": -5731.4,
+      "new_margin_pct": 6.7
+    },
+    {
+      "price_change_pct": -2.5,
+      "elasticity": -1.0,
+      "volume_factor": 1.025,
+      "new_revenue": 603361.89,
+      "new_profit": 43565.72,
+      "profit_change": -2488.36,
+      "new_margin_pct": 7.22
+    },
+    {
+      "price_change_pct": 0,
+      "elasticity": -1.0,
+      "volume_factor": 1.0,
+      "new_revenue": 603739.23,
+      "new_profit": 46054.08,
+      "profit_change": 0.0,
+      "new_margin_pct": 7.63
+    },
+    {
+      "price_change_pct": 2.5,
+      "elasticity": -1.0,
+      "volume_factor": 0.975,
+      "new_revenue": 603361.89,
+      "new_profit": 47787.77,
+      "profit_change": 1733.69,
+      "new_margin_pct": 7.92
+    },
+    {
+      "price_change_pct": 5,
+      "elasticity": -1.0,
+      "volume_factor": 0.95,
+      "new_revenue": 602229.88,
+      "new_profit": 48766.78,
+      "profit_change": 2712.7,
+      "new_margin_pct": 8.1
+    },
+    {
+      "price_change_pct": 7.5,
+      "elasticity": -1.0,
+      "volume_factor": 0.925,
+      "new_revenue": 600343.2,
+      "new_profit": 48991.13,
+      "profit_change": 2937.05,
+      "new_margin_pct": 8.16
+    },
+    {
+      "price_change_pct": 10,
+      "elasticity": -1.0,
+      "volume_factor": 0.9,
+      "new_revenue": 597701.84,
+      "new_profit": 48460.79,
+      "profit_change": 2406.71,
+      "new_margin_pct": 8.11
+    }
+  ]
+}

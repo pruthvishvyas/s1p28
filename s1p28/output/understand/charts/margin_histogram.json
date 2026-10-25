@@ -1,0 +1,171 @@
+{
+  "id": "margin_histogram",
+  "title": "Route margin distribution",
+  "type": "histogram",
+  "question": "How many routes lose money, and by how much?",
+  "outcome": "UNDERSTAND",
+  "x_label": "Margin % (bin start)",
+  "y_label": "Routes",
+  "data": [
+    {
+      "label": "-51.1",
+      "value": 4.0
+    },
+    {
+      "label": "-48.5",
+      "value": 2.0
+    },
+    {
+      "label": "-45.9",
+      "value": 3.0
+    },
+    {
+      "label": "-43.3",
+      "value": 2.0
+    },
+    {
+      "label": "-40.7",
+      "value": 1.0
+    },
+    {
+      "label": "-38.0",
+      "value": 3.0
+    },
+    {
+      "label": "-35.4",
+      "value": 3.0
+    },
+    {
+      "label": "-32.8",
+      "value": 11.0
+    },
+    {
+      "label": "-30.2",
+      "value": 10.0
+    },
+    {
+      "label": "-27.6",
+      "value": 17.0
+    },
+    {
+      "label": "-25.0",
+      "value": 12.0
+    },
+    {
+      "label": "-22.4",
+      "value": 10.0
+    },
+    {
+      "label": "-19.8",
+      "value": 20.0
+    },
+    {
+      "label": "-17.2",
+      "value": 17.0
+    },
+    {
+      "label": "-14.5",
+      "value": 28.0
+    },
+    {
+      "label": "-11.9",
+      "value": 35.0
+    },
+    {
+      "label": "-9.3",
+      "value": 32.0
+    },
+    {
+      "label": "-6.7",
+      "value": 49.0
+    },
+    {
+      "label": "-4.1",
+      "value": 55.0
+    },
+    {
+      "label": "-1.5",
+      "value": 60.0
+    },
+    {
+      "label": "1.1",
+      "value": 65.0
+    },
+    {
+      "label": "3.7",
+      "value": 76.0
+    },
+    {
+      "label": "6.3",
+      "value": 57.0
+    },
+    {
+      "label": "8.9",
+      "value": 55.0
+    },
+    {
+      "label": "11.6",
+      "value": 58.0
+    },
+    {
+      "label": "14.2",
+      "value": 56.0
+    },
+    {
+      "label": "16.8",
+      "value": 43.0
+    },
+    {
+      "label": "19.4",
+      "value": 44.0
+    },
+    {
+      "label": "22.0",
+      "value": 40.0
+    },
+    {
+      "label": "24.6",
+      "value": 33.0
+    },
+    {
+      "label": "27.2",
+      "value": 27.0
+    },
+    {
+      "label": "29.8",
+      "value": 25.0
+    },
+    {
+      "label": "32.4",
+      "value": 11.0
+    },
+    {
+      "label": "35.1",
+      "value": 11.0
+    },
+    {
+      "label": "37.7",
+      "value": 9.0
+    },
+    {
+      "label": "40.3",
+      "value": 6.0
+    },
+    {
+      "label": "42.9",
+      "value": 5.0
+    },
+    {
+      "label": "45.5",
+      "value": 2.0
+    },
+    {
+      "label": "48.1",
+      "value": 1.0
+    },
+    {
+      "label": "50.7",
+      "value": 2.0
+    }
+  ]
+}

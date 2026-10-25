@@ -1,0 +1,344 @@
+{
+  "verified_facts": {
+    "n_routes": {
+      "value": 1000.0,
+      "display": "1,000",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Route_ID"
+      ],
+      "how": "rows after cleaning",
+      "n_rows": 1000,
+      "repro": "len(df)",
+      "caveat": "",
+      "verified": true
+    },
+    "span_days": {
+      "value": 365.0,
+      "display": "365",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Route_Date"
+      ],
+      "how": "last date minus first date plus one",
+      "n_rows": 1000,
+      "repro": "(df[date].max()-df[date].min()).days+1",
+      "caveat": "",
+      "verified": true
+    },
+    "n_depots": {
+      "value": 4.0,
+      "display": "4",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Depot"
+      ],
+      "how": "distinct depots",
+      "n_rows": 1000,
+      "repro": "df[depot].nunique()",
+      "caveat": "",
+      "verified": true
+    },
+    "loss_n": {
+      "value": 347.0,
+      "display": "347",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Gross_Profit"
+      ],
+      "how": "routes with Gross_Profit below zero",
+      "n_rows": 1000,
+      "repro": "(df[profit]<0).sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "win_n": {
+      "value": 653.0,
+      "display": "653",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Gross_Profit"
+      ],
+      "how": "routes with Gross_Profit of zero or more",
+      "n_rows": 1000,
+      "repro": "(df[profit]>=0).sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "loss_share": {
+      "value": 34.7,
+      "display": "34.7%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Gross_Profit"
+      ],
+      "how": "loss-making routes divided by all routes",
+      "n_rows": 1000,
+      "repro": "(df[profit]<0).mean()*100",
+      "caveat": "",
+      "verified": true
+    },
+    "loss_amt": {
+      "value": 24010.36,
+      "display": "24,010",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Gross_Profit"
+      ],
+      "how": "sum of negative route profits (absolute value)",
+      "n_rows": 347,
+      "repro": "-df.loc[df[profit]<0,profit].sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "net_abs": {
+      "value": 46054.08,
+      "display": "46,054",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Gross_Profit"
+      ],
+      "how": "sum of all route profits (absolute value; sign stated in text)",
+      "n_rows": 1000,
+      "repro": "df[profit].sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "margin": {
+      "value": 7.6281,
+      "display": "7.6%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Gross_Profit",
+        "Delivery_Revenue"
+      ],
+      "how": "sum of profit divided by sum of revenue",
+      "n_rows": 1000,
+      "repro": "df[profit].sum()/df[rev].sum()*100",
+      "caveat": "",
+      "verified": true
+    },
+    "naive_slice": {
+      "value": 20.0,
+      "display": "20%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [],
+      "how": "size of the top slice used for the capture comparison (also the random-selection baseline)",
+      "n_rows": 1000,
+      "repro": "20",
+      "caveat": "",
+      "verified": true
+    },
+    "lane_n": {
+      "value": 106.0,
+      "display": "106",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Depot",
+        "Zone_Type"
+      ],
+      "how": "routes in the lane",
+      "n_rows": 106,
+      "repro": "df[(df.depot+' | '+df.zone)==lane].shape[0]",
+      "caveat": "",
+      "verified": true
+    },
+    "lane_share": {
+      "value": 10.6,
+      "display": "10.6%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Depot",
+        "Zone_Type"
+      ],
+      "how": "lane routes divided by all routes",
+      "n_rows": 1000,
+      "repro": "lane routes / len(df)*100",
+      "caveat": "",
+      "verified": true
+    },
+    "lane_net": {
+      "value": 3707.29,
+      "display": "3,707",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Gross_Profit"
+      ],
+      "how": "sum of profit in the lane (absolute value of a net loss)",
+      "n_rows": 106,
+      "repro": "df.loc[lane,profit].sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "lane_margin": {
+      "value": -5.4107,
+      "display": "-5.4%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Gross_Profit",
+        "Delivery_Revenue"
+      ],
+      "how": "lane profit divided by lane revenue",
+      "n_rows": 106,
+      "repro": "profit.sum()/rev.sum()*100 within the lane",
+      "caveat": "",
+      "verified": true
+    },
+    "cost_excess": {
+      "value": 0.477,
+      "display": "0.48",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Driver_Labor_Cost",
+        "Parcels_Delivered",
+        "Gross_Profit"
+      ],
+      "how": "mean cost per delivered parcel on loss-making routes minus profitable routes",
+      "n_rows": 1000,
+      "repro": "per-parcel cost gap between loss and profit groups",
+      "caveat": "",
+      "verified": true
+    },
+    "cost_parcels": {
+      "value": 43033.0,
+      "display": "43,033",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Parcels_Delivered"
+      ],
+      "how": "parcels delivered on loss-making routes",
+      "n_rows": 347,
+      "repro": "df.loc[df[profit]<0,d_parcels].sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "ot_thr": {
+      "value": 0.5,
+      "display": "0.5",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Overtime_Hours"
+      ],
+      "how": "overtime-hours threshold from CONFIG",
+      "n_rows": 1000,
+      "repro": "CONFIG thresholds",
+      "caveat": "",
+      "verified": true
+    },
+    "load_thr": {
+      "value": 60.0,
+      "display": "60%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Vehicle_Load_Utilization_pct"
+      ],
+      "how": "load-utilisation threshold from CONFIG",
+      "n_rows": 1000,
+      "repro": "CONFIG thresholds",
+      "caveat": "",
+      "verified": true
+    },
+    "ot_n": {
+      "value": 707.0,
+      "display": "707",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [],
+      "how": "Overtime routes have Overtime_Hours above the CONFIG threshold.",
+      "n_rows": 1000,
+      "repro": "mask.sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "ot_share": {
+      "value": 70.7,
+      "display": "70.7%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [],
+      "how": "group routes divided by all routes",
+      "n_rows": 1000,
+      "repro": "mask.mean()*100",
+      "caveat": "",
+      "verified": true
+    },
+    "ot_margin": {
+      "value": 4.9267,
+      "display": "4.9%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Gross_Profit",
+        "Delivery_Revenue"
+      ],
+      "how": "group profit divided by group revenue",
+      "n_rows": 707,
+      "repro": "profit[mask].sum()/rev[mask].sum()*100",
+      "caveat": "",
+      "verified": true
+    },
+    "ot_other": {
+      "value": 15.9077,
+      "display": "15.9%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Gross_Profit",
+        "Delivery_Revenue"
+      ],
+      "how": "profit divided by revenue for all other routes",
+      "n_rows": 293,
+      "repro": "profit[~mask].sum()/rev[~mask].sum()*100",
+      "caveat": "",
+      "verified": true
+    },
+    "ot_loss": {
+      "value": 22672.92,
+      "display": "22,673",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\clean_data.csv",
+      "columns": [
+        "Gross_Profit"
+      ],
+      "how": "losses (absolute) on loss-making routes inside the group",
+      "n_rows": 707,
+      "repro": "-profit[mask & (profit<0)].sum()",
+      "caveat": "",
+      "verified": true
+    },
+    "capture": {
+      "value": 72.0587,
+      "display": "72.1%",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\ml_task1_output.csv",
+      "columns": [
+        "loss_risk_prob",
+        "Gross_Profit"
+      ],
+      "how": "share of total loss amount held by the top 20% of routes ranked by out-of-fold loss-risk score",
+      "n_rows": 1000,
+      "repro": "rank by loss_risk_prob; sum losses in top 20% / total losses",
+      "caveat": "",
+      "verified": true
+    },
+    "top_n": {
+      "value": 200.0,
+      "display": "200",
+      "source": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p28\\s1p28\\data\\processed\\ml_task1_output.csv",
+      "columns": [
+        "loss_risk_prob"
+      ],
+      "how": "routes in the top 20% slice",
+      "n_rows": 1000,
+      "repro": "int(0.2*len(df))",
+      "caveat": "",
+      "verified": true
+    }
+  },
+  "rejected_facts": [],
+  "selected_findings": [
+    "loss",
+    "ot",
+    "cost",
+    "capture",
+    "lane"
+  ],
+  "post_generated": true,
+  "failed_checks": [],
+  "word_count": 218,
+  "linkedin_input_block": "Project: Last-Mile Delivery Network | domain: Logistics - Last-Mile Delivery\nDataset: 1,000 rows, 365 days, 4 depots, provenance synthetic_portfolio\nFinding: 347 of 1,000 routes finish below break-even (34.7%), totalling 24,010 in losses against a net profit of 46,054\nFinding: 707 routes (70.7%) ran more than 0.5 overtime hours earned a 4.9% margin versus 15.9% for all other routes\nFinding: Driver labour shows the widest per-parcel gap: 0.48 higher on loss-making routes, across 43,033 parcels\nFinding: The riskiest 20% of routes by out-of-fold model score hold 72.1% of all losses, against 20% for random selection\nFinding: North Hub (cold climate) | Urban Dense is the weakest lane: 106 routes (10.6% of the total), -5.4% margin, 3,707 net loss\nTools and models: pandas: cleaning, feature engineering and aggregation; scikit-learn Logistic Regression: pre-dispatch loss-risk classifier with stratified cross-validation; KMeans and Isolation Forest: route segments and anomaly flags; Rule-based alert engine: action priority for every route; Scenario simulations: what-if cost and price lookups; Plotly and openpyxl: interactive dashboard and Excel report\nTarget audience: recruiters and hiring managers"
+}

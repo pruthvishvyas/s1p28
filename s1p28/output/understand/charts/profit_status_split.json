@@ -1,0 +1,19 @@
+{
+  "id": "profit_status_split",
+  "title": "Profitable vs loss-making routes",
+  "type": "bar",
+  "question": "How many routes lose money?",
+  "outcome": "UNDERSTAND",
+  "x_label": "Status",
+  "y_label": "Routes",
+  "data": [
+    {
+      "label": "Profitable",
+      "value": 653.0
+    },
+    {
+      "label": "Loss-Making",
+      "value": 347.0
+    }
+  ]
+}

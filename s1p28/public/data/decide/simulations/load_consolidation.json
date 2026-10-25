@@ -1,0 +1,63 @@
+{
+  "scenario": "load_consolidation",
+  "description": "Profit if the emptiest X% of routes are merged into neighbours",
+  "variable": "routes_consolidated_pct",
+  "assumptions": [
+    "Labour, fuel, lease and maintenance of targeted routes are saved",
+    "Only 50% of that saving is realised (redistribution overhead)"
+  ],
+  "baseline": {
+    "revenue": 603739.23,
+    "cost": 557685.15,
+    "profit": 46054.08,
+    "margin_pct": 7.6281,
+    "routes": 1000
+  },
+  "results": [
+    {
+      "routes_consolidated_pct": 0,
+      "routes_removed_equiv": 0,
+      "cost_saved": 0.0,
+      "avg_load_of_targeted_routes": 0.0,
+      "new_profit": 46054.08,
+      "profit_change": 0.0,
+      "new_margin_pct": 7.63
+    },
+    {
+      "routes_consolidated_pct": 5,
+      "routes_removed_equiv": 50,
+      "cost_saved": 8032.54,
+      "avg_load_of_targeted_routes": 25.1,
+      "new_profit": 54086.62,
+      "profit_change": 8032.54,
+      "new_margin_pct": 8.96
+    },
+    {
+      "routes_consolidated_pct": 10,
+      "routes_removed_equiv": 100,
+      "cost_saved": 16212.93,
+      "avg_load_of_targeted_routes": 25.8,
+      "new_profit": 62267.0,
+      "profit_change": 16212.93,
+      "new_margin_pct": 10.31
+    },
+    {
+      "routes_consolidated_pct": 15,
+      "routes_removed_equiv": 150,
+      "cost_saved": 24958.74,
+      "avg_load_of_targeted_routes": 26.8,
+      "new_profit": 71012.81,
+      "profit_change": 24958.74,
+      "new_margin_pct": 11.76
+    },
+    {
+      "routes_consolidated_pct": 20,
+      "routes_removed_equiv": 200,
+      "cost_saved": 33730.27,
+      "avg_load_of_targeted_routes": 28.2,
+      "new_profit": 79784.35,
+      "profit_change": 33730.27,
+      "new_margin_pct": 13.22
+    }
+  ]
+}

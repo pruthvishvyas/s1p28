@@ -1,0 +1,40 @@
+{
+  "revenue_target": {
+    "value": null,
+    "unit": "monthly",
+    "client_sets": true,
+    "description": "Monthly delivery revenue goal"
+  },
+  "margin_target_pct": {
+    "value": null,
+    "unit": "percent",
+    "client_sets": true,
+    "description": "Network gross margin goal (break-even 0% used until set)"
+  },
+  "on_time_target_pct": {
+    "value": 95,
+    "unit": "percent",
+    "client_sets": true,
+    "description": "Parcel-weighted on-time delivery goal"
+  },
+  "first_attempt_target_pct": {
+    "value": 95,
+    "unit": "percent",
+    "client_sets": true,
+    "description": "First-attempt delivery success goal"
+  },
+  "alert_drop_pct": {
+    "value": 20,
+    "unit": "percent",
+    "description": "Alert if weekly revenue drops by this % versus the prior week"
+  },
+  "forecast_horizon": {
+    "value": 14,
+    "unit": "days"
+  },
+  "max_overtime_hours": {
+    "value": 0.5,
+    "unit": "hours per route",
+    "client_sets": true
+  }
+}

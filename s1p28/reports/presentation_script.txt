@@ -1,0 +1,47 @@
+SLIDE 1 -- TITLE AND HOOK
+Last-Mile Delivery Network: 347 of 1000 routes lose money - 24,010 in losses
+
+SLIDE 2 -- THE BUSINESS PROBLEM
+Which routes lose money, why, and what should operations change this week?
+
+SLIDE 3 -- DATASET OVERVIEW
+1000 routes | 4 depots | 40 drivers | 2025-10-01 to 2026-09-30
+
+SLIDE 4 -- PROFITABILITY
+Revenue 603,739 | Profit 46,054 | Margin 7.6%
+
+SLIDE 5 -- CORE FINDING
+71% of routes run into overtime and earn a lower margin. Overtime routes margin 4.9% vs 15.9% for the rest; 1935 overtime hours cost about 53,990 in labour.
+
+SLIDE 6 -- FEATURE ENGINEERING
+Plain-English features: failed-stop rate, hours overrun, drop density, planned revenue per hour, route stress score and more.
+
+SLIDE 7 -- LOSS-RISK CLASSIFICATION
+Model: Logistic Regression | Test AUC 0.911 | Recall 0.93 | Top-20% capture 72% of losses
+
+SLIDE 8 -- SEGMENTATION AND ANOMALIES
+Segments k=3 silhouette 0.30 | anomalies 50
+
+SLIDE 9 -- FORECAST
+Status: ok | horizon 14 days | history 294 days
+
+SLIDE 10 -- BUSINESS LOGIC
+On-time 86.0% | first-attempt 94.9% | P1 urgent routes 319
+
+SLIDE 11 -- KEY INSIGHTS
+[HIGH] Labour and Overtime: 71% of routes run into overtime and earn a lower margin.
+[HIGH] Delivery Reliability: Failed deliveries, damage claims and SLA penalties leak money every week.
+[HIGH] Customer Experience: Late routes drive complaints and SLA exposure.
+[MEDIUM] Route Profitability: 34.7% of routes lose money, wiping out a large part of what profitable routes earn.
+[MEDIUM] Cost Structure: Driver labour is the cost line where losing routes overspend most per parcel.
+
+SLIDE 12 -- RECOMMENDATIONS
+- Cap planned stops on routes that regularly exceed planned hours.
+- Introduce time-slot booking and pre-delivery notifications on the lanes with the lowest first-attempt rate.
+- Re-sequence stops and tighten delivery windows on the late routes.
+
+SLIDE 13 -- EXEC HOOK
+Fix the top 3 loss drivers and address up to 131,205 of exposure.
+
+SLIDE 14 -- TECHNICAL ARCHITECTURE
+Python pipeline -> feature store -> models (ready) -> output/ JSON by outcome -> Cloudflare frontend

@@ -1,0 +1,186 @@
+{
+  "type": "Logistic Regression",
+  "pkl_file": "models/best_classifier.pkl",
+  "models_ready": true,
+  "input_fields": [
+    {
+      "name": "Driver_Tenure_Months",
+      "type": "float",
+      "range": [
+        2.0,
+        80.0
+      ]
+    },
+    {
+      "name": "Peak_Season_Flag",
+      "type": "float",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Traffic_Index",
+      "type": "float",
+      "range": [
+        1.0,
+        1.79
+      ]
+    },
+    {
+      "name": "Planned_Stops",
+      "type": "float",
+      "range": [
+        43.0,
+        184.0
+      ]
+    },
+    {
+      "name": "Parcels_Planned",
+      "type": "float",
+      "range": [
+        42.0,
+        228.0
+      ]
+    },
+    {
+      "name": "Planned_Route_km",
+      "type": "float",
+      "range": [
+        20.0,
+        239.0
+      ]
+    },
+    {
+      "name": "Planned_Hours",
+      "type": "float",
+      "range": [
+        6.0,
+        9.5
+      ]
+    },
+    {
+      "name": "Revenue_per_Parcel",
+      "type": "float",
+      "range": [
+        3.41,
+        12.09
+      ]
+    },
+    {
+      "name": "Vehicle_Load_Utilization_pct",
+      "type": "float",
+      "range": [
+        25.0,
+        100.0
+      ]
+    },
+    {
+      "name": "parcels_per_stop",
+      "type": "float",
+      "range": [
+        0.8769,
+        1.4107
+      ]
+    },
+    {
+      "name": "km_per_stop",
+      "type": "float",
+      "range": [
+        0.2079,
+        4.5814
+      ]
+    },
+    {
+      "name": "planned_revenue",
+      "type": "float",
+      "range": [
+        313.32,
+        1625.64
+      ]
+    },
+    {
+      "name": "planned_stops_per_hour",
+      "type": "float",
+      "range": [
+        6.2319,
+        19.3684
+      ]
+    },
+    {
+      "name": "planned_revenue_per_hour",
+      "type": "float",
+      "range": [
+        46.6987,
+        171.12
+      ]
+    },
+    {
+      "name": "Depot",
+      "type": "str",
+      "values": [
+        "Central Hub",
+        "Coastal Hub",
+        "North Hub (cold climate)",
+        "South Hub (hot climate)"
+      ]
+    },
+    {
+      "name": "Zone_Type",
+      "type": "str",
+      "values": [
+        "Rural",
+        "Suburban",
+        "Urban Dense"
+      ]
+    },
+    {
+      "name": "Vehicle_Type",
+      "type": "str",
+      "values": [
+        "Cargo Bike",
+        "Diesel Van",
+        "Electric Van"
+      ]
+    },
+    {
+      "name": "Delivery_Window_Type",
+      "type": "str",
+      "values": [
+        "Same-day",
+        "Standard",
+        "Time-slot"
+      ]
+    },
+    {
+      "name": "Weather",
+      "type": "str",
+      "values": [
+        "Clear",
+        "Heatwave",
+        "Rain",
+        "Snow"
+      ]
+    },
+    {
+      "name": "Day_of_Week",
+      "type": "str",
+      "values": [
+        "Fri",
+        "Mon",
+        "Sat",
+        "Thu",
+        "Tue",
+        "Wed"
+      ]
+    }
+  ],
+  "output_label": "loss_risk_prob",
+  "threshold": 0.29,
+  "horizon": 14,
+  "output_schema": {
+    "probability": "float",
+    "flag": "int",
+    "risk_level": "str"
+  }
+}

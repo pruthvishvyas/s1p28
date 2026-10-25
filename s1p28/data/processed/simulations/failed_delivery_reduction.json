@@ -1,0 +1,60 @@
+{
+  "scenario": "failed_delivery_reduction",
+  "description": "Profit if failed deliveries fall by X%",
+  "variable": "reduction_pct",
+  "assumptions": [
+    "Redelivery cost and SLA penalties fall in proportion to failed deliveries",
+    "Damage claims unchanged"
+  ],
+  "baseline": {
+    "revenue": 603739.23,
+    "cost": 557685.15,
+    "profit": 46054.08,
+    "margin_pct": 7.6281,
+    "routes": 1000
+  },
+  "results": [
+    {
+      "reduction_pct": 0,
+      "cost_saved": 0.0,
+      "new_profit": 46054.08,
+      "profit_change": 0.0,
+      "new_margin_pct": 7.63
+    },
+    {
+      "reduction_pct": 10,
+      "cost_saved": 4640.61,
+      "new_profit": 50694.69,
+      "profit_change": 4640.61,
+      "new_margin_pct": 8.4
+    },
+    {
+      "reduction_pct": 20,
+      "cost_saved": 9281.22,
+      "new_profit": 55335.3,
+      "profit_change": 9281.22,
+      "new_margin_pct": 9.17
+    },
+    {
+      "reduction_pct": 30,
+      "cost_saved": 13921.83,
+      "new_profit": 59975.91,
+      "profit_change": 13921.83,
+      "new_margin_pct": 9.93
+    },
+    {
+      "reduction_pct": 40,
+      "cost_saved": 18562.44,
+      "new_profit": 64616.52,
+      "profit_change": 18562.44,
+      "new_margin_pct": 10.7
+    },
+    {
+      "reduction_pct": 50,
+      "cost_saved": 23203.05,
+      "new_profit": 69257.13,
+      "profit_change": 23203.05,
+      "new_margin_pct": 11.47
+    }
+  ]
+}

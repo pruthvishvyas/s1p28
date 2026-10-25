@@ -1,0 +1,27 @@
+{
+  "id": "priority_breakdown",
+  "title": "Routes by action priority",
+  "type": "bar",
+  "question": "Which routes need action first?",
+  "outcome": "DECIDE",
+  "x_label": "Priority",
+  "y_label": "Routes",
+  "data": [
+    {
+      "label": "P1_URGENT",
+      "value": 319.0
+    },
+    {
+      "label": "P2_HIGH",
+      "value": 148.0
+    },
+    {
+      "label": "P3_MEDIUM",
+      "value": 515.0
+    },
+    {
+      "label": "P4_ROUTINE",
+      "value": 18.0
+    }
+  ]
+}
